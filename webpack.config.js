@@ -5,6 +5,10 @@ module.exports = {
   entry: {
     header: path.resolve(__dirname, "src/header.js"),
     homepage: path.resolve(__dirname, "src/homepage.js"),
+    articles: path.resolve(__dirname, "src/articles.js"),
+    news: path.resolve(__dirname, "src/news.js"),
+    single_news: path.resolve(__dirname, "src/single_news.js"),
+    single_article: path.resolve(__dirname, "src/single_article.js"),
   },
   output: {
     path: path.resolve(__dirname, "dist"),

@@ -5,6 +5,10 @@ export const Selectors = {
     news_button: ".news_button",
     search_button: ".search_button",
   },
+  Footer: {
+    Facebook: ".facebook",
+    Twitter: ".twitter",
+  },
   Homepage: {
     our_articles_button: ".our_articles_button",
     our_articles: {
@@ -34,9 +38,15 @@ export const Selectors = {
     order_printed_copies_button: ".order_printed_copies_button",
     text_container: ".text_container",
   },
+
+  Single_News: {
+    NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
+    text_container: ".text_container",
+  },
 };
 
 export const Placeholders = {
+  Header: "XXXHEADERXXX",
   Homepage: {
     our_articles: {
       single_article: {
@@ -55,12 +65,12 @@ export const Placeholders = {
         news_authors: "XXXNEWS_AUTHORSXXX",
         news_publish_date: "XXXNEWS_PUBLISH_DATEXXX",
 
-        news_image_src: "XXXNEWS_IMAGE_SRC_SMALL_XXX",
-        news_image_alt: "XXXNEWS_IMAGE_ALT_SMALL_XXX",
-        news_title: "XXXNEWS_TITLEV_SMALL_XXX",
-        news_abstract: "XXXNEWS_ABSTRACT_SMALL_XXX",
-        news_authors: "XXXNEWS_AUTHORS_SMALL_XXX",
-        news_publish_date: "XXXNEWS_PUBLISH_DATE_SMALL_XXX",
+        // news_image_src: "XXXNEWS_IMAGE_SRC_SMALL_XXX",
+        // news_image_alt: "XXXNEWS_IMAGE_ALT_SMALL_XXX",
+        // news_title: "XXXNEWS_TITLEV_SMALL_XXX",
+        // news_abstract: "XXXNEWS_ABSTRACT_SMALL_XXX",
+        // news_authors: "XXXNEWS_AUTHORS_SMALL_XXX",
+        // news_publish_date: "XXXNEWS_PUBLISH_DATE_SMALL_XXX",
       },
     },
   },
@@ -77,12 +87,19 @@ export const Placeholders = {
 
   News: {
     single_news: {
-      news_image_src: "XXXNEWS_IMAGE_SRCXXX",
-      news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
-      news_title: "XXXNEWS_TITLEXXX",
-      news_abstract: "XXXNEWS_ABSTRACTXXX",
-      news_authors: "XXXNEWS_AUTHORSXXX",
+      //   news_image_src: "XXXNEWS_IMAGE_SRCXXX",
+      //   news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
+      //   news_title: "XXXNEWS_TITLEXXX",
+      //   news_abstract: "XXXNEWS_ABSTRACTXXX",
+      //   news_authors: "XXXNEWS_AUTHORSXXX",
       news_publish_date: "XXXNEWS_PUBLISH_DATEXXX",
+
+      news_image_src: "XXXNEWS_IMAGE_SRC_SMALL_XXX",
+      news_image_alt: "XXXNEWS_IMAGE_ALT_SMALL_XXX",
+      news_title: "XXXNEWS_TITLEV_SMALL_XXX",
+      news_abstract: "XXXNEWS_ABSTRACT_SMALL_XXX",
+      news_authors: "XXXNEWS_AUTHORS_SMALL_XXX",
+      //   news_publish_date: "XXXNEWS_PUBLISH_DATE_SMALL_XXX",
     },
   },
 
@@ -103,4 +120,20 @@ export const Placeholders = {
     article_views_count: "XXXARTICLES_VIEW_COUNTXXX",
     article_downloads_count: "XXXARTICLE_DOWNLOADS_COUNTXXX",
   },
+
+  Single_News: {
+    news_title: "XXXNEWS_TITLEXXX",
+    news_image_src: "XXXNEWS_IMAGE_SRCXXX",
+    news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
+  },
+};
+
+export const Routes = {
+  Homepage: "http://127.0.0.1:5500",
+  News: "http://127.0.0.1:5500/News.html",
+  Articles: "http://127.0.0.1:5500/Articles%20page.html",
+  Single_Article: "http://127.0.0.1:5500/Single%20Article.html",
+  Single_News: "http://127.0.0.1:5500/Single%20Nes.html",
+  ArticleImages: "http://127.0.0.1:5500/Resources/Articles/",
+  NewsImages: "http://127.0.0.1:5500/Resources/News/",
 };

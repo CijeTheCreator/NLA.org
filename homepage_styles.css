@@ -2152,7 +2152,7 @@ button {
   width: 100%;
   margin-top: -80px;
   background-color: rgb(255, 255, 255);
-  background-image: url("https://static.hindawi.com/styles/hero_image_small/s3/2019-12/home_hero_mob.jpg?itok=2JnrJady");
+  background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2161,14 +2161,14 @@ button {
 @media (min-width: 768px) {
   .eGqpbg {
     margin-top: -15px;
-    background-image: url("https://static.hindawi.com/styles/hero_image_medium/s3/2019-12/home_hero_tab.jpg?itok=9NKWFYic");
+    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
     min-height: 320px;
   }
 }
 @media (min-width: 992px) {
   .eGqpbg {
     margin-top: 70px;
-    background-image: url("https://static.hindawi.com/styles/hero_image_large/s3/2019-12/home_hero.jpg?itok=PRuM0mPo");
+    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
     height: 465px;
     overflow: hidden;
   }
@@ -2558,7 +2558,7 @@ button {
 }
 @media (min-width: 768px) {
   .fdtjvR {
-    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDQzcHgiIGhlaWdodD0iNjBweCIgdmlld0JveD0iMCAwIDQ0MyA2MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTQuMSAoNzY0OTApIC0gaHR0cHM6Ly9za2V0Y2hhcHAuY29tIC0tPgogICAgPHRpdGxlPlJlY3RhbmdsZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJIb21lLS0tRGVza3RvcC0tQ29weS03IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTM4LjAwMDAwMCwgLTcxMy4wMDAwMDApIiBmaWxsPSIjRTBFMEUwIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0UwRTBFMCI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik01ODAuNDMwMTU5LDc0MyBMNTY1LjAxMzc2MSw3MTQuODAwNzcyIEM1NjQuNTc1MzIxLDcxMy45OTg3OTEgNTYzLjczNDE3MSw3MTMuNSA1NjIuODIwMTY4LDcxMy41IEwxNDEsNzEzLjUgQzEzOS42MTkyODgsNzEzLjUgMTM4LjUsNzE0LjYxOTI4OCAxMzguNSw3MTYgTDEzOC41LDc3MCBDMTM4LjUsNzcxLjM4MDcxMiAxMzkuNjE5Mjg4LDc3Mi41IDE0MSw3NzIuNSBMNTYyLjgyMDE2OCw3NzIuNSBDNTYzLjczNDE3MSw3NzIuNSA1NjQuNTc1MzIxLDc3Mi4wMDEyMDkgNTY1LjAxMzc2MSw3NzEuMTk5MjI4IEw1ODAuNDMwMTU5LDc0MyBaIiBpZD0iUmVjdGFuZ2xlIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
+    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
