@@ -57,42 +57,42 @@ const attachEventHandlers = () => {
   );
 };
 
-const populateArticles = () => {
-  const articles_html_template = homepage_single_article_html;
-  const articles_html_filled = Articles.map((el) => {
-    let temp_article_html = applyPlaceholder(
-      articles_html_template,
-      Placeholders.Homepage.our_articles.single_article.article_abstract,
-      el.article_abstract
-    );
-    temp_article_html = applyPlaceholder(
-      temp_article_html,
-      Placeholders.Homepage.our_articles.single_article.article_authors,
-      el.article_authors
-    );
-    temp_article_html = applyPlaceholder(
-      temp_article_html,
-      Placeholders.Homepage.our_articles.single_article.article_title,
-      el.article_title
-    );
-    temp_article_html = applyPlaceholder(
-      temp_article_html,
-      Placeholders.Homepage.our_articles.single_article.article_publish_date,
-      el.article_publish_date
-    );
-    temp_article_html = applyPlaceholder(
-      temp_article_html,
-      Placeholders.Homepage.our_articles.single_article.article_image_src,
-      `${Routes.ArticleImages}${el.article_image_src}`
-    );
+// const populateArticles = () => {
+//   const articles_html_template = homepage_single_article_html;
+//   const articles_html_filled = Articles.map((el) => {
+//     let temp_article_html = applyPlaceholder(
+//       articles_html_template,
+//       Placeholders.Homepage.our_articles.single_article.article_abstract,
+//       el.article_abstract
+//     );
+//     temp_article_html = applyPlaceholder(
+//       temp_article_html,
+//       Placeholders.Homepage.our_articles.single_article.article_authors,
+//       el.article_authors
+//     );
+//     temp_article_html = applyPlaceholder(
+//       temp_article_html,
+//       Placeholders.Homepage.our_articles.single_article.article_title,
+//       el.article_title
+//     );
+//     temp_article_html = applyPlaceholder(
+//       temp_article_html,
+//       Placeholders.Homepage.our_articles.single_article.article_publish_date,
+//       el.article_publish_date
+//     );
+//     temp_article_html = applyPlaceholder(
+//       temp_article_html,
+//       Placeholders.Homepage.our_articles.single_article.article_image_src,
+//       `${Routes.ArticleImages}${el.article_image_src}`
+//     );
 
-    return temp_article_html;
-  }).join(" ");
-  insertInnerHtml(
-    Selectors.Homepage.our_articles.container,
-    articles_html_filled
-  );
-};
+//     return temp_article_html;
+//   }).join(" ");
+//   // insertInnerHtml(
+//   //   Selectors.Homepage.our_articles.container,
+//   //   articles_html_filled
+//   // );
+// };
 
 const populateNews = () => {
   const news_html_template = homepage_single_news_html;
@@ -146,7 +146,7 @@ const addHrefsToNewsAndArticles = () => {
     Routes.News;
 };
 
-populateArticles();
+// populateArticles();
 populateNews();
 attachEventHandlers();
 addHrefsToNewsAndArticles();
