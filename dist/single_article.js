@@ -2406,9 +2406,12 @@ const single_article_base_html = `
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   NameToNumberMappings: () => (/* binding */ NameToNumberMappings),
 /* harmony export */   Single_Article_iframe_HTML: () => (/* binding */ Single_Article_iframe_HTML),
-/* harmony export */   articles: () => (/* binding */ articles)
+/* harmony export */   articles: () => (/* binding */ articles),
+/* harmony export */   currentIssue: () => (/* binding */ currentIssue)
 /* harmony export */ });
+const currentIssue = "Volume 3 No. 2";
 const articles = [
   {
     id: 0,
@@ -2516,7 +2519,7 @@ const articles = [
     authors: ["Oluchi Cecilia Okeke", "Edward C. Amadi"],
     file_name:
       "v2/Currency_and_Relevancy_of_Reproductive_Information_Resources_A_Focus_on_Teaching_Hospital_Medical_Libraries_in_South_East_Nigeria.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2526,7 +2529,7 @@ const articles = [
     authors: ["Faith O. Mesagan", "Ibrahim M. M. Furfuri"],
     file_name:
       "v2/Utilization_of_Library_Audiovisual_Resources_for_Effective_Teaching_and_Learning_in_Three_Colleges_of_Education_in_Enugu_State.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2536,7 +2539,7 @@ const articles = [
     authors: ["Carl N. Nworu", "Ahmed Abayomi Ayandokun"],
     file_name:
       "v2/Accessibility_Management_and_Use_of_Indigenous_Knowledge_in_a_Rural_Community_The_Case_of_Unwana_Community_Afikpo_North_LGA_Ebonyi_State.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2546,7 +2549,7 @@ const articles = [
     authors: ["Monica E. Eze"],
     file_name:
       "v2/An_Exploratory_Study_on_School_Libraries_and_Media_Resource_Centers_in_Nigeria.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2556,7 +2559,7 @@ const articles = [
     authors: ["Perpetua Onyinyechi Ukwueze", "Jacinta U. Eze"],
     file_name:
       "v2/Retrospective_Conversion_of_Library_Catalogue_and_Access_to_Information_Resources_in_Nnamdi_Azikiwe_University_Awka.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2571,7 +2574,7 @@ const articles = [
     ],
     file_name:
       "v2/The_Politics_of_Media_and_Pandemic_Misinformation_Librarians_Role_in_Validation_and_Retraction_of_Conflicting_Information.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2581,7 +2584,7 @@ const articles = [
     authors: ["Rose Uloma Ezeh"],
     file_name:
       "v2/Fee-Based_Services_as_Panacea_to_Financial_Challenges_in_Academic_Libraries_in_Nigeria_Issues_for_Consideration.pdf",
-    volume_name: "Volume 2 No. 1&2",
+    volume_name: "Volume 2 No. 1 and 2",
     publish_date: "December 2022",
   },
   {
@@ -2761,7 +2764,6 @@ const articles = [
     publish_date: "December 2023",
   },
 ];
-
 const Single_Article_iframe_HTML = `
 <iframe
   src="XXARTICLESOURCEXX"
@@ -2772,6 +2774,171 @@ const Single_Article_iframe_HTML = `
 ></iframe>
 
 `;
+const NameToNumberMappings = {
+  "Volume 1": [
+    {
+      article_name:
+        "Influence of Social Media on the Perceived Academic Performance of Undergraduate Students in Al-Hikmah University, Kwara State, Nigeria",
+      file_name: "10-22.pdf",
+    },
+    {
+      article_name:
+        "Exploring Entrepreneurship Education and Library and Information Science Students for Employability in Nigerian Universities",
+      file_name: "23-35.pdf",
+    },
+    {
+      article_name:
+        "Inclusive Librarianship for Learners with Special Needs: rethinking the public and academic library system",
+      file_name: "36-47.pdf",
+    },
+    {
+      article_name:
+        "The Effect of COVID 19 Pandemic on Library Services in Nigeria",
+      file_name: "48-60.pdf",
+    },
+    {
+      article_name:
+        "Management of Information Resources through Integrated Emergent Technologies in Nigerian Libraries",
+      file_name: "61-72.pdf",
+    },
+    {
+      article_name:
+        "Management of Public Library Collections: A Case Study of Abia State Library Board, Umuahia, Nigeria",
+      file_name: "73-81.pdf",
+    },
+    {
+      article_name:
+        "Administration Practices and Challenges of Multi-Campus Libraries in a Digital Environment: The Experience of Osun State University",
+      file_name: "82-91.pdf",
+    },
+    {
+      article_name:
+        "Library and Information Services for Nursing Education: A Study of Faculty of Nursing, Ladoke Akintola University of Technology Ogbomoso, Oyo State, Nigeria",
+      file_name: "92-104.pdf",
+    },
+    {
+      article_name:
+        "Undergraduate Students’ Use of the University Library and Access to Information in Madonna University, Okija, Nigeria",
+      file_name: "105-113.pdf",
+    },
+  ],
+  "Volume 2 No. 1 and 2": [
+    {
+      article_name:
+        "Currency and Relevancy of Reproductive Information Resources: A Focus on Teaching Hospital Medical Libraries in South East Nigeria",
+      file_name: "11-24.pdf",
+    },
+    {
+      article_name:
+        "Utilization of Library Audiovisual Resources for Effective Teaching and Learning in Three Colleges of Education in Enugu State",
+      file_name: "25-38.pdf",
+    },
+    {
+      article_name:
+        "Accessibility, Management and Use of Indigenous Knowledge in a Rural Community: The Case of Unwana Community, Afikpo North LGA, Ebonyi State",
+      file_name: "39-56.pdf",
+    },
+    {
+      article_name:
+        "An Exploratory Study on School Libraries and Media Resource Centers in Nigeria",
+      file_name: "57-70.pdf",
+    },
+    {
+      article_name:
+        "Retrospective Conversion of Library Catalogue and Access to Information Resources in Nnamdi Azikiwe University, Awka",
+      file_name: "71-82.pdf",
+    },
+    {
+      article_name:
+        "The Politics of Media and Pandemic Misinformation: Librarians’ Role in Validation and Retraction of Conflicting Information",
+      file_name: "83-92.pdf",
+    },
+    {
+      article_name:
+        "Fee-Based Services as Panacea to Financial Challenges in Academic Libraries in Nigeria: Issues for Consideration",
+      file_name: "93-109.pdf",
+    },
+  ],
+  "Volume 3 No. 1": [
+    {
+      article_name:
+        "Provision and Utilization of Library Resources and Services in Selected Public and Private Secondary Schools in Owerri Municipality, Imo State, Nigeria",
+      file_name: "11-26.pdf",
+    },
+    {
+      article_name:
+        "Value Added Education in Librarianship: Context for Sustainable Development",
+      file_name: "27-43.pdf",
+    },
+    {
+      article_name:
+        "Aligning Ranganathan Laws of Librarianship to today’s Reality of Information",
+      file_name: "44-54.pdf",
+    },
+    {
+      article_name:
+        "Librarians' Awareness of Online Information Services and Resources for Effective Services Delivery in Public University Libraries in South-East, Nigeria",
+      file_name: "55-68.pdf",
+    },
+    {
+      article_name:
+        "Health Information Literacy: Early Warning System against Covid 19 Pandemic in Nigeria",
+      file_name: "69-81.pdf",
+    },
+    {
+      article_name:
+        "Health Information Services Delivery for Prevention and Treatment of Infertility in Teaching Hospital Libraries",
+      file_name: "82-95.pdf",
+    },
+    {
+      article_name:
+        "Sustainable Book Publishing Companies in Nigeria and Job Creation for National Development",
+      file_name: "96-110.pdf",
+    },
+  ],
+  "Volume 3 No. 2": [
+    {
+      article_name:
+        "Utilization of Information on Post-Harvest Technology by Agro-Based Women Entrepreneurs in Abia State, Nigeria",
+      file_name: "9-23.pdf",
+    },
+    {
+      article_name:
+        "Challenges of Provision and Utilization of Fertility Health Information Resources and Services in Medical Libraries of Teaching Hospitals in South East Nigeria",
+      file_name: "24-35.pdf",
+    },
+    {
+      article_name:
+        "Multimedia Skills for the Implementation of E-Learning in Niger Delta University, Bayelsa State",
+      file_name: "36-43.pdf",
+    },
+    {
+      article_name:
+        "Extent of the Use of Library Management Software Packages in Selected University Libraries in South West Nigeria",
+      file_name: "44-53.pdf",
+    },
+    {
+      article_name:
+        "Awareness and Utilization of Social Media for Information Repackaging in University Libraries in Edo State, Nigeria",
+      file_name: "54-64.pdf",
+    },
+    {
+      article_name:
+        "Digital Literacy Skills of Librarians in Providing Digital Reference Services in Selected Universities in Kano Metropolis: A survey",
+      file_name: "65-76.pdf",
+    },
+    {
+      article_name:
+        "Factors Affecting Information Seeking Strategies of Orange Farmers in Nigeria: A Proposed Model from the Literature",
+      file_name: "69-83.pdf",
+    },
+    {
+      article_name:
+        "Navigating Towards Entrepreneurial Librarianship in Nigeria: a Gateway to Wealth Creation",
+      file_name: "84-93.pdf",
+    },
+  ],
+};
 
 
 /***/ }),
@@ -3121,6 +3288,9 @@ const Selectors = {
     Main_Title: ".large_title",
     Main_Publish_Date: ".main_publish_date",
   },
+  Archives: {
+    Container: ".archive_container",
+  },
 };
 
 const Placeholders = {
@@ -3211,6 +3381,10 @@ const Placeholders = {
     article_authors: "XXXARTICLEAUTHORSXXX",
     article_href: "XXHREFXX",
     article_name_href: "XXNAMEHREFXX",
+  },
+  Archives: {
+    volume_name: "XXXVOLUMENAMEXXX",
+    issue_href: "XXXISSUEHREFXXX",
   },
 };
 

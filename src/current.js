@@ -1,5 +1,9 @@
 import { Single_Issue_Html } from "../Html_Templates/CurrentIssue_SingleIssue";
-import { articles } from "../Utils/Data";
+import {
+  articles,
+  NameToNumberMappings,
+  currentIssue as GlobalCurrentIssue,
+} from "../Utils/Data";
 import {
   applyPlaceholder,
   insertInnerHtml,
@@ -12,10 +16,15 @@ import {
   Placeholders,
 } from "../Utils/Selectors_And_PlaceHolders";
 
+const urlParams = new URLSearchParams(window.location.href);
+let currentIssue = urlParams.get("issue");
+
 const currentIssuesPlaceholders = Placeholders.Current_Issue;
 const currentIssuesSelectors = Selectors.Current_Issue;
-const currentIssue = "Volume 3 No. 2";
-const currentArtilces = articles.filter((el) => el.volume_name == currentIssue);
+const currentArtilces = articles.filter(
+  (el) => el.volume_name.replace(/ /g, "") == currentIssue
+);
+currentIssue = currentArtilces[0].volume_name;
 const currentArticlesHtml = currentArtilces
   .map((el) => {
     let tempCurrentArticle = Single_Issue_Html;
@@ -29,10 +38,20 @@ const currentArticlesHtml = currentArtilces
       currentIssuesPlaceholders.article_authors,
       el.authors.join(", ")
     );
+
+    let pageRange;
+    try {
+      pageRange = NameToNumberMappings[currentIssue]
+        .find((el2) => el2.article_name == el.article_name)
+        .file_name.split(".")[0];
+    } catch (error) {
+      console.log(el.article_name + " not found");
+      pageRange = "N/A";
+    }
     tempCurrentArticle = applyPlaceholder(
       tempCurrentArticle,
       currentIssuesPlaceholders.article_pages,
-      "N/A"
+      pageRange
     );
     const articlePath = FileServer + el.file_name;
     tempCurrentArticle = applyPlaceholder(
@@ -58,3 +77,12 @@ const publishedHtml = `
                             ${publishDate}`;
 insertInnerHtml(currentIssuesSelectors.Container, currentArticlesHtml);
 insertInnerHtml(currentIssuesSelectors.Main_Publish_Date, publishedHtml);
+
+if (currentIssue == GlobalCurrentIssue) {
+  insertInnerHtml(
+    currentIssuesSelectors.Main_Title,
+    `Current Issue: ${currentIssue}`
+  );
+} else {
+  insertInnerHtml(currentIssuesSelectors.Main_Title, `Issue: ${currentIssue}`);
+}

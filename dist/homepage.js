@@ -436,6 +436,9 @@ const Selectors = {
     Main_Title: ".large_title",
     Main_Publish_Date: ".main_publish_date",
   },
+  Archives: {
+    Container: ".archive_container",
+  },
 };
 
 const Placeholders = {
@@ -526,6 +529,10 @@ const Placeholders = {
     article_authors: "XXXARTICLEAUTHORSXXX",
     article_href: "XXHREFXX",
     article_name_href: "XXNAMEHREFXX",
+  },
+  Archives: {
+    volume_name: "XXXVOLUMENAMEXXX",
+    issue_href: "XXXISSUEHREFXXX",
   },
 };
 

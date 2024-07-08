@@ -2,62 +2,30 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./Html_Templates/CurrentIssue_SingleIssue.js":
-/*!****************************************************!*\
-  !*** ./Html_Templates/CurrentIssue_SingleIssue.js ***!
-  \****************************************************/
+/***/ "./Html_Templates/Archives_Single_Archive_Html.js":
+/*!********************************************************!*\
+  !*** ./Html_Templates/Archives_Single_Archive_Html.js ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Single_Issue_Html: () => (/* binding */ Single_Issue_Html)
+/* harmony export */   Single_Archive_Html: () => (/* binding */ Single_Archive_Html)
 /* harmony export */ });
-const Single_Issue_Html = `
-                        <section class="section">
-                          <div class="media-list">
-                            <hr />
-                            <div class="article-summary media">
-                              <div class="media-body">
-                                <div style="float: left">
-                                  <h4 class="media-heading">
-                                    <a href="XXNAMEHREFXX" class="article_name_link"
-                                      >XXXARTICLENAMEXXX</a
-                                    >
-                                  </h4>
+const Single_Archive_Html = `
+                    <div class="issue-summary media">
+                  <div class="media-body">
+                    <h2 class="media-heading">
+                      <a class="title" href="XXXISSUEHREFXXX"
+                        >
+                        XXXVOLUMENAMEXXX
+                        </a
+                      >
+                    </h2>
+                  </div>
+                </div>
 
-                                  <div class="meta">
-                                    <div class="authors">
-                                      XXXARTICLEAUTHORSXXX
-                                    </div>
-                                  </div>
-
-                                  <p class="pages">XXXPAGESXXX</p>
-                                </div>
-
-                                <div
-                                  class="btn-group"
-                                  role="group"
-                                  style="float: right"
-                                >
-                                  <a
-                                    style="
-                                      margin-left: auto;
-                                      margin-right: auto;
-                                    "
-                                    role="button"
-                                    href="XXHREFXX"
-                                    class="galley-link btn btn-primary pdf download_pdf_button"
-                                  >
-                                    <i class="bi bi-download"></i> download PDF
-                                  </a>
-                                </div>
-
-                                <div style="clear: both"></div>
-                              </div>
-                            </div>
-                            <!-- .article-summary -->
-                          </div>
-                        </section>
+                                <hr />
 `;
 
 
@@ -934,92 +902,50 @@ const Routes = {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!************************!*\
-  !*** ./src/current.js ***!
-  \************************/
+/*!*************************!*\
+  !*** ./src/archives.js ***!
+  \*************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Html_Templates_CurrentIssue_SingleIssue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Html_Templates/CurrentIssue_SingleIssue */ "./Html_Templates/CurrentIssue_SingleIssue.js");
-/* harmony import */ var _Utils_Data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Utils/Data */ "./Utils/Data.js");
-/* harmony import */ var _Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Utils/General_Utils */ "./Utils/General_Utils.js");
-/* harmony import */ var _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Utils/Selectors_And_PlaceHolders */ "./Utils/Selectors_And_PlaceHolders.js");
+/* harmony import */ var _Utils_Data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Utils/Data */ "./Utils/Data.js");
+/* harmony import */ var _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Utils/Selectors_And_PlaceHolders */ "./Utils/Selectors_And_PlaceHolders.js");
+/* harmony import */ var _Html_Templates_Archives_Single_Archive_Html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Html_Templates/Archives_Single_Archive_Html */ "./Html_Templates/Archives_Single_Archive_Html.js");
+/* harmony import */ var _Utils_General_Utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Utils/General_Utils */ "./Utils/General_Utils.js");
 
 
 
 
 
-const urlParams = new URLSearchParams(window.location.href);
-let currentIssue = urlParams.get("issue");
 
-const currentIssuesPlaceholders = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_3__.Placeholders.Current_Issue;
-const currentIssuesSelectors = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_3__.Selectors.Current_Issue;
-const currentArtilces = _Utils_Data__WEBPACK_IMPORTED_MODULE_1__.articles.filter(
-  (el) => el.volume_name.replace(/ /g, "") == currentIssue
-);
-currentIssue = currentArtilces[0].volume_name;
-const currentArticlesHtml = currentArtilces
+const archivePlaceholders = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_1__.Placeholders.Archives;
+const volumes = Object.keys(_Utils_Data__WEBPACK_IMPORTED_MODULE_0__.NameToNumberMappings);
+const baseUrl = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_1__.WebServer + "issue.html";
+console.log(volumes);
+const volumesHtml = volumes
   .map((el) => {
-    let tempCurrentArticle = _Html_Templates_CurrentIssue_SingleIssue__WEBPACK_IMPORTED_MODULE_0__.Single_Issue_Html;
-    tempCurrentArticle = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.applyPlaceholder)(
-      tempCurrentArticle,
-      currentIssuesPlaceholders.article_name,
-      el.article_name
-    );
-    tempCurrentArticle = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.applyPlaceholder)(
-      tempCurrentArticle,
-      currentIssuesPlaceholders.article_authors,
-      el.authors.join(", ")
+    let tempArchive = _Html_Templates_Archives_Single_Archive_Html__WEBPACK_IMPORTED_MODULE_2__.Single_Archive_Html;
+
+    tempArchive = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_3__.applyPlaceholder)(
+      tempArchive,
+      archivePlaceholders.volume_name,
+      `${el}`
     );
 
-    let pageRange;
-    try {
-      pageRange = _Utils_Data__WEBPACK_IMPORTED_MODULE_1__.NameToNumberMappings[currentIssue]
-        .find((el2) => el2.article_name == el.article_name)
-        .file_name.split(".")[0];
-    } catch (error) {
-      console.log(el.article_name + " not found");
-      pageRange = "N/A";
-    }
-    tempCurrentArticle = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.applyPlaceholder)(
-      tempCurrentArticle,
-      currentIssuesPlaceholders.article_pages,
-      pageRange
-    );
-    const articlePath = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_3__.FileServer + el.file_name;
-    tempCurrentArticle = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.applyPlaceholder)(
-      tempCurrentArticle,
-      currentIssuesPlaceholders.article_href,
-      articlePath
-    );
+    console.log(`replacing ${archivePlaceholders.volume_name} with ${el}`);
 
-    const articleSuffixLink = `Single%20Article.html?site-=nla&articleId=${el.id}`;
-    const articleLink = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_3__.WebServer + articleSuffixLink;
-    tempCurrentArticle = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.applyPlaceholder)(
-      tempCurrentArticle,
-      currentIssuesPlaceholders.article_name_href,
-      articleLink
+    const archiveLink = `${baseUrl}?site=nla&issue=${el.replace(/ /g, "")}`;
+    tempArchive = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_3__.applyPlaceholder)(
+      tempArchive,
+      archivePlaceholders.issue_href,
+      archiveLink
     );
-    return tempCurrentArticle;
+    return tempArchive;
   })
   .join(" ");
 
-const publishDate = currentArtilces[0].publish_date;
-const publishedHtml = `
-  <strong> Published: </strong>
-                            ${publishDate}`;
-(0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.insertInnerHtml)(currentIssuesSelectors.Container, currentArticlesHtml);
-(0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.insertInnerHtml)(currentIssuesSelectors.Main_Publish_Date, publishedHtml);
-
-if (currentIssue == _Utils_Data__WEBPACK_IMPORTED_MODULE_1__.currentIssue) {
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.insertInnerHtml)(
-    currentIssuesSelectors.Main_Title,
-    `Current Issue: ${currentIssue}`
-  );
-} else {
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.insertInnerHtml)(currentIssuesSelectors.Main_Title, `Issue: ${currentIssue}`);
-}
+(0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_3__.insertInnerHtml)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_1__.Selectors.Archives.Container, volumesHtml);
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=current_issue.js.map
+//# sourceMappingURL=archives.js.map
