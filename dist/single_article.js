@@ -62,26 +62,12 @@ const single_article_base_html = `
             <div class="ant-col ThreeColumnLayout_middleColumn__sbd41" style="width: 65%">
               <div class="ArticleMiddleSection_articleMiddleSection__gAv9z" style="max-width: unset">
                 <div class="articleHeader">
-                  <div class="articleHeader__meta">
-                    <span>Volume
-                      <!-- -->XXXVOLUME_YEARXXX<!-- -->
-                      | </span><span class="articleHeader__meta_doiLink"><a href="" aria-label="Doi-link" target="_blank" rel="noreferrer">XXXARTICLEDOILINKTEXTXXX</a></span>
-                  </div>
+
                   <h1 class="articleHeader__title">XXXARTICLETITLELARGEXXX</h1>
                   <div class="articleHeader__authors">
-                    <span class="articleHeader__authors_author"><strong>XXXARTICLEMAINAUTHORXXX</strong><a href="" aria-label="Mail Option"><span role="img" class="anticon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1401 1101">
-                            <path fill="#6ba439" d="M132.5 2.1C101.4 6 71.1 20.5 48.3 42.4c-22.7 21.7-37.5 48.3-44.6 80l-2.2 10.1v837l2.2 10.1c6.7 30 19.3 53.9 39.8 75.3 23.3 24.3 56.4 40.9 90 45 12.8 1.6 1122.2 1.6 1135 0 38.9-4.8 75.9-25.6 100-56.4 15-19.3 24.2-39 29.8-63.9l2.2-10.1v-837l-2.2-10.1c-7.1-31.8-21.9-58.3-44.6-80.1-20.2-19.2-43.9-31.7-73.6-38.5l-9.6-2.3L705 1.4c-321.9-.1-568.5.2-572.5.7zm1123.4 99.5c1.7.4 3.1 1 3.1 1.4 0 .5-125.6 87.7-279 194L700.9 490.2 422 297C268.5 190.7 143 103.4 143 103c0-.5 1-1.1 2.3-1.3 3.5-.7 1107.1-.8 1110.6-.1zM401 404c164.4 113.8 299.4 207 300 207 .6 0 135.6-93.2 300.1-207 164.5-113.9 299.3-207 299.5-207 .2 0 .4 170.9.4 379.7 0 417.9.5 386-6.1 398.3-6.2 11.6-19 21.4-31.9 24.4-5.8 1.4-67.4 1.6-562 1.6s-556.2-.2-562-1.6c-12.9-3-25.7-12.8-31.9-24.4-6.6-12.3-6.1 19.6-6.1-398.3 0-208.8.2-379.7.5-379.7S236.6 290.1 401 404z"></path></svg></span></a>,</span><span class="articleHeader__authors_author">XXXARTICLEOTHERAUTHORSXXX</span>
+                    <span class="articleHeader__authors_author"><strong>XXXARTICLEMAINAUTHORXXX</strong>,</span><span class="articleHeader__authors_author">XXXARTICLEOTHERAUTHORSXXX</span>
                   </div>
                   <div class="articleHeader__timeline">
-                    <div class="articleHeader__timeline_item">
-                      <strong>Received</strong><span>XXXARTICLERECEIVEDDATEXXX</span>
-                    </div>
-                    <div class="articleHeader__timeline_item">
-                      <strong>Revised</strong><span>XXXARTICLEREVISEDDATEXXX</span>
-                    </div>
-                    <div class="articleHeader__timeline_item">
-                      <strong>Accepted</strong><span>XXXARTICLEACCEPTEDDATEXXX</span>
-                    </div>
                     <div class="articleHeader__timeline_item articleHeader__timeline_item_sticky">
                       <strong>Published</strong><span>XXXARTICLEPUBLISHEDDATEXXX</span>
                     </div>
@@ -2350,415 +2336,7 @@ const single_article_base_html = `
                     </p>
                   </div>
                 </div>
-                <div class="ArticleReferences_xmlContent__p_40j">
-                  <h4 class="ArticleReferences_references__GH2t_" id="references">
-                    References
-                  </h4>
-                  <ol class="ArticleReferences_orderedReferences__mJr9M">
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B1">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          M. Hoq, S. Matthews, S. Donath, J. Carlin, V.
-                          Ignjatovic, and P. Monagle, “Paediatric reference
-                          intervals: current status, gaps, challenges and future
-                          considerations,” <i>Clinical Biochemist Reviews</i>,
-                          vol. 41, no. 2, pp. 43–52, 2020.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B2">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          G. Abbam, S. Tandoh, M. Tetteh et al., “Reference
-                          intervals for selected haematological and biochemical
-                          parameters among apparently healthy adults in
-                          different eco-geographical zones in Ghana,”
-                          <i>PLoS One</i>, vol. 16, no. 1, article e0245585,
-                          2021.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B3">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          Y. Ozarda, “Reference intervals: current status,
-                          recent developments and future considerations,”
-                          <i>Biochemia Medica</i>, vol. 26, no. 1, pp. 5–16,
-                          2016.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B4">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          M. A. Price, P. E. Fast, M. Mshai et al.,
-                          “Region-specific laboratory reference intervals are
-                          important: a systematic review of the data from
-                          Africa,” <i>PLOS Global Public Health</i>, vol. 2, no.
-                          11, article e0000783, 2022.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B5">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          N. L. Simpong, C. T. Afefa, L. Yimpuri et al.,
-                          “Establishing pregnancy-specific haematological
-                          reference intervals in Ghana; a three-center
-                          cross-sectional study,” <i>PLoS One</i>, vol. 18, no.
-                          2, article e0274422, 2023.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B6">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A. Borai, K. Ichihara, S. Bahijri et al.,
-                          “Establishment of reference intervals for
-                          hematological parameters of adult population in the
-                          western region of Saudi Arabia,” <i>PLoS One</i>, vol.
-                          18, no. 2, article e0281494, 2023.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B7">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          J. Liu, Y. Dai, E. Yuan et al., “Paediatric reference
-                          intervals for common coagulation assays in Chinese
-                          children as performed on the STA-R coagulation
-                          analyzer,”
-                          <i>International Journal of Laboratory Hematology</i>,
-                          vol. 41, no. 5, pp. 697–701, 2019.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B8">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          G. Di Felice, M. Vidali, G. Parisi et al., “Reference
-                          intervals for coagulation parameters in developmental
-                          hemostasis from infancy to adolescence,”
-                          <i>Diagnostics</i>, vol. 12, no. 10, p. 2552, 2022.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B9">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A. N. Lyle, F. Pokuah, D. J. Dietzen et al., “Current
-                          state of pediatric reference intervals and the
-                          importance of correctly describing the biochemistry of
-                          child development: a review,” <i>JAMA Pediatrics</i>,
-                          vol. 176, no. 7, pp. 699–714, 2022.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B10">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          B. Weijts, L. Yvernogeau, and C. Robin, “Recent
-                          advances in developmental hematopoiesis: diving deeper
-                          with new technologies,”
-                          <i>Frontiers in Immunology</i>, vol. 12, article
-                          790379, 2021.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B11">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          O. Ojewole, U. Abubakar, and A. Olowu, “Haematological
-                          parameters of apparently healthy neonates at the
-                          Federal Medical Centre Bida, North Central Nigeria,”
-                          <i>Annals of Health Research</i>, vol. 6, no. 3, pp.
-                          276–286, 2020.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B12">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          D. K. Dosoo, K. A. Koram, S. Amenga-Etego et al.,
-                          “Biochemical and hematologic parameters for children
-                          in the middle belt of Ghana,”
-                          <i>The American Journal of Tropical Medicine and
-                            Hygiene</i>, vol. 90, no. 4, pp. 767–773, 2014.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B13">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          J. Y. Sung, J. D. Seo, D.-H. Ko et al., “Establishment
-                          of pediatric reference intervals for routine
-                          laboratory tests in Korean population: a retrospective
-                          multicenter analysis,”
-                          <i>Annals of Laboratory Medicine</i>, vol. 41, no. 2,
-                          pp. 155–170, 2021.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B14">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          D. Yadav, “Reference interval for clinical laboratory
-                          test parameters,”
-                          <i>Biochemistry &amp; Analytical Biochemistry</i>,
-                          vol. 4, no. 4, 2015.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B15">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A. S. A. Bawua, K. Ichihara, R. Keatley et al.,
-                          “Establishing Ghanaian adult reference intervals for
-                          hematological parameters controlling for latent anemia
-                          and inflammation,”
-                          <i>International Journal of Laboratory Hematology</i>,
-                          vol. 42, no. 6, pp. 705–717, 2020.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B16">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A.-K. Yahaya, “Population growth in the Tamale
-                          metropolis: a blessing or a curse to housing,”
-                          <i>Ghana Journal of Development Studies</i>, vol. 19,
-                          no. 2, pp. 111–134, 2022.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B17">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          Ghana Statistical Service,
-                          <i>District analytical report on 2010 population and
-                            housing census-Tamale metropolis</i>, Ghana Statistical Service Publications, 2014,
-                          <a target="_blank" href="">https://www2.statsghana.gov.gh/docfiles/2010_District_Report/Northern/</a>.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B18">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          M. Sanda, “My Google Earth project-schools in Northern
-                          Region of Ghana,” 2023,
-                          <a target="_blank" href="">https://earth.google.com/web/</a>.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B19">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          E. A. Sasse, B. T. Doumas, P. E. D’Orazio et al.,
-                          <i>C28-A How to Define and Determine Reference
-                            Intervals in the Clinical Laboratory; Approved
-                            Guideline—Second Edition</i>, National Committee for Clinical Laboratory
-                          Standards. (NCCLS Document C28-A), 2000.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B20">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          D. K. Dosoo, K. Kayan, D. Adu-Gyasi et al.,
-                          “Haematological and biochemical reference values for
-                          healthy adults in the middle belt of Ghana,”
-                          <i>PLoS One</i>, vol. 7, no. 4, article e36308, 2012.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B21">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A. H. Béavogui, A. A. Touré, D. Camara et al.,
-                          “Haematological and biochemical reference values for
-                          healthy population of Maferinyah rural community in
-                          Guinea,” <i>BioMed Research International</i>, vol.
-                          2020, Article ID 8605485, 10 pages, 2020.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B22">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          X. Zhang, Y. Ding, Y. Zhang, J. Xing, Y. Dai, and E.
-                          Yuan, “Age- and sex-specific reference intervals for
-                          hematologic analytes in Chinese children,”
-                          <i>International Journal of Laboratory Hematology</i>,
-                          vol. 41, no. 3, pp. 331–337, 2019.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B23">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          J. Pluncevic Gligoroska, S. Gontarev, B. Dejanova, L.
-                          Todorovska, D. Shukova Stojmanova, and S. Manchevska,
-                          “Red blood cell variables in children and adolescents
-                          regarding the age and sex,”
-                          <i>Iranian Journal of Public Health</i>, vol. 48, no.
-                          4, pp. 704–712, 2019.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B24">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          S. Wilson, M. K. Bohn, A. Hall, V. Higgins, M.
-                          Abdelhaleem, and K. Adeli, “Continuous reference
-                          curves for common hematology markers in the CALIPER
-                          cohort of healthy children and adolescents on the
-                          Sysmex XN-3000 system,”
-                          <i>International Journal of Laboratory Hematology</i>,
-                          vol. 43, no. 6, pp. 1394–1402, 2021.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B25">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          F. Salami, H.-S. Lee, E. Freyhult et al., “Reduction
-                          in white blood cell, neutrophil, and red blood cell
-                          counts related to sex, HLA, and islet autoantibodies
-                          in Swedish TEDDY children at increased risk for type 1
-                          diabetes,” <i>Diabetes</i>, vol. 67, no. 11, pp.
-                          2329–2336, 2018.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B26">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          J. Okebe, J. Mwesigwa, S. C. Agbla et al., “Seasonal
-                          variation in haematological and biochemical reference
-                          values for healthy young children in The Gambia,”
-                          <i>BMC Pediatrics</i>, vol. 16, no. 1, p. 5, 2016.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B27">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          N. Tembe, O. Joaquim, E. Alfai et al., “Reference
-                          values for clinical laboratory parameters in young
-                          adults in Maputo, Mozambique,” <i>PLoS One</i>, vol.
-                          9, no. 5, article e97391, 2014.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B28">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          A. Humberg, J. Kammer, B. Mordmüller, P. G. Kremsner,
-                          and B. Lell, “Haematological and biochemical reference
-                          intervals for infants and children in Gabon,”
-                          <i>Tropical Medicine &amp; International Health</i>,
-                          vol. 16, no. 3, pp. 343–348, 2011.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B29">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          F. Kironde, M. Sekikubo, H. Naiwumbwe et al.,
-                          “Hematology and blood serum chemistry reference
-                          intervals for children in Iganga district of Uganda,”
-                          <i>Health</i>, vol. 5, no. 8, pp. 1261–1267, 2013.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B30">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          J. Le Blanc and M. Lordkipanidzé, “Platelet function
-                          in aging,” <i>Front. Cardiovasc. Med.</i>, vol. 6, p.
-                          109, 2019.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                    <li class="ArticleReferences_articleReference__ouEuh" id="B31">
-                      <div class="referenceContent">
-                        <p class="referenceText">
-                          W. Mulu, B. Abera, Z. Mekonnen et al., “Haematological
-                          and CD4<sup>+</sup> T cells reference ranges in
-                          healthy adult populations in Gojjam zones in Amhara
-                          region, Ethiopia,” <i>PLoS One</i>, vol. 12, no. 7,
-                          article e0181268, 2017.
-                        </p>
-                        View at:<!-- -->
-                        <a href="" target="_blank" rel="noreferrer">Publisher Site</a><span class="sep"> | </span><a href="" target="_blank" rel="noreferrer">Google Scholar</a>
-                      </div>
-                    </li>
-                  </ol>
-                </div>
-                <h4 class="copyright-title" id="copyright">Copyright</h4>
-                <div class="copyright-body">
-                  Copyright © 2024 Gabriel Abbam et al. This is an open access
-                  article distributed under the
-                  <a rel="license" href="">Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and
-                  reproduction in any medium, provided the original work is
-                  properly cited.
-                </div>
+               
               </div>
             </div>
             <div class="ant-col ThreeColumnLayout_rightColumn__b_MuL" style="width: 30%">
@@ -2776,35 +2354,7 @@ const single_article_base_html = `
                             <g>
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M3,22a3,3,0,0,1-3-3V16a1,1,0,0,1,2,0v3a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V16a1,1,0,1,1,2,0v3a3,3,0,0,1-3,3Zm6.288-6.3-4-4a1,1,0,0,1,1.414-1.414L9,12.586V1a1,1,0,0,1,2,0V12.586l2.293-2.293a1,1,0,0,1,1.414,1.414l-4,4a1,1,0,0,1-1.423,0Z" fill="currentColor"></path>
                             </g></svg></span></a>
-                      <div class="ant-collapse ant-collapse-icon-position-end articleToolbarOtherFormats_otherFormatsCollapse__VHaOL download_other_formats_button">
-                        <div class="ant-collapse-item">
-                          <div class="ant-collapse-header" aria-expanded="false" aria-disabled="false" role="button" tabindex="0">
-                            <div class="ant-collapse-expand-icon">
-                              <span role="img" class="anticon ant-collapse-arrow"><svg width="1em" height="1em" viewBox="0 0 32 32" fill="none">
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.773 23.453l11.2-11.265a1.918 1.918 0 000-2.641 1.75 1.75 0 00-2.542 0l-9.929 10.101-9.933-10.1a1.75 1.75 0 00-2.542 0 1.919 1.919 0 000 2.64L15.23 23.453c.352.365.811.547 1.271.547.46 0 .92-.182 1.271-.547z" fill="currentColor"></path></svg></span>
-                            </div>
-                            <span class="ant-collapse-header-text"><span><span role="img" class="anticon articleToolbarOtherFormats_atofDownloadIcon__YRM5T"><svg width="1em" height="1em" viewBox="0 0 20 22">
-                                    <defs>
-                                      <clipPath>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3,22a3,3,0,0,1-3-3V16a1,1,0,0,1,2,0v3a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V16a1,1,0,1,1,2,0v3a3,3,0,0,1-3,3Zm6.288-6.3-4-4a1,1,0,0,1,1.414-1.414L9,12.586V1a1,1,0,0,1,2,0V12.586l2.293-2.293a1,1,0,0,1,1.414,1.414l-4,4a1,1,0,0,1-1.423,0Z" fill="currentColor"></path>
-                                      </clipPath>
-                                    </defs>
-                                    <g>
-                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3,22a3,3,0,0,1-3-3V16a1,1,0,0,1,2,0v3a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V16a1,1,0,1,1,2,0v3a3,3,0,0,1-3,3Zm6.288-6.3-4-4a1,1,0,0,1,1.414-1.414L9,12.586V1a1,1,0,0,1,2,0V12.586l2.293-2.293a1,1,0,0,1,1.414,1.414l-4,4a1,1,0,0,1-1.423,0Z" fill="currentColor"></path>
-                                    </g></svg></span><span>Download other formats</span></span></span>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="" class="ButtonGroup_buttonGroupWrapper__Rqhy0 order_printed_copies_button" role="button" type="ghost" aria-label="Order printed copies" tabindex="0" unselectable="on" target="_blank"><span class="ButtonGroup_leftGroup__FJAmS"><span role="img" class="anticon ButtonGroup_buttonGroupWrapperIcon__CFikg"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41667 1H18.6667C19.1269 1 19.5 1.44772 19.5 2V22C19.5 22.5523 19.1269 23 18.6667 23H7.41667C5.80584 23 4.5 21.433 4.5 19.5V4.5C4.5 2.567 5.80584 1 7.41667 1ZM6.16667 16.3368V4.5C6.16667 3.67157 6.72631 3 7.41667 3H17.8333V16H7.41667C6.96933 16 6.54552 16.1208 6.16667 16.3368ZM17.8333 18H7.41667C6.72631 18 6.16667 18.6716 6.16667 19.5C6.16667 20.3284 6.72631 21 7.41667 21H17.8333V18Z" fill="currentColor"></path></svg></span><span>Order printed copies</span></span><span role="img" class="anticon ButtonGroup_buttonGroupWrapperIcon__CFikg"><svg width="1em" height="1em" viewBox="0 0 18 14">
-                            <defs>
-                              <clipPath id="a">
-                                <path d="M10.293,13.707a1,1,0,0,1,0-1.414L14.586,8H1A1,1,0,0,1,1,6H14.586L10.293,1.707A1,1,0,0,1,11.707.293l6,6a1,1,0,0,1,.172.231h0l.01.019,0,.005.007.014.006.012,0,.008.008.018v0a1,1,0,0,1-.009.817l0,0L17.9,7.44l0,.009-.005.011-.007.013,0,.008-.008.015,0,.005-.01.016,0,0-.011.017,0,0-.012.018,0,0-.012.017,0,0L17.8,7.6l0,0-.011.014,0,.006-.01.012-.009.011-.006.007-.015.017h0l-.04.042-6,6a1,1,0,0,1-1.414,0Z" transform="translate(3 5)"></path>
-                              </clipPath>
-                            </defs>
-                            <g transform="translate(-3 -5)">
-                              <path d="M10.293,13.707a1,1,0,0,1,0-1.414L14.586,8H1A1,1,0,0,1,1,6H14.586L10.293,1.707A1,1,0,0,1,11.707.293l6,6a1,1,0,0,1,.172.231h0l.01.019,0,.005.007.014.006.012,0,.008.008.018v0a1,1,0,0,1-.009.817l0,0L17.9,7.44l0,.009-.005.011-.007.013,0,.008-.008.015,0,.005-.01.016,0,0-.011.017,0,0-.012.018,0,0-.012.017,0,0L17.8,7.6l0,0-.011.014,0,.006-.01.012-.009.011-.006.007-.015.017h0l-.04.042-6,6a1,1,0,0,1-1.414,0Z" transform="translate(3 5)" fill="currentColor"></path>
-                            </g></svg></span></a>
+
                       <div class="articleToolbarStatistics_articleToolbarStatistics__8_woN">
                         <div class="articleToolbarStatistics_column__R2GqD">
                           <div>
@@ -2831,16 +2381,7 @@ const single_article_base_html = `
           </div>
         </main>
         <div>
-          <footer class="ant-layout-footer"><section class="sc-eNQAEJ fkikFi" style="padding: 24px 40px 24px 35px">
-              <div class="sc-bZQynM bNmdOy lgN2amz0cDtZbavzXqgD6Q-- primary__footer footer__bodypadding" style="justify-content: center">
-                <div class="sc-hMqMXs ihbKmM desktop" style="text-align: center">
-                  Follow us:
-                  <nav role="navigation" class="sc-kkGfuU filPdg">
-                    <a class="sc-htpNat bUhGXt link sc-kEYyzF ecHxGW twitter" href="https://twitter.com/nla_ng?lang=en" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><img alt=" " class="sc-EHOje TsaZF" title="" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIiBmaWxsPSJub25lIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMjBDMCA4Ljk1NTk5IDguOTU1OTkgMCAyMCAwQzMxLjA0NCAwIDQwIDguOTU1OTkgNDAgMjBDNDAgMzEuMDQ0IDMxLjA0NCA0MCAyMCA0MEM4Ljk1NTk5IDQwIDAgMzEuMDQ0IDAgMjBaTTI5LjE0NDkgMTYuMTg3MUMyOS4xNDQ5IDE1Ljk4ODUgMjkuMTQwNiAxNS43OTA3IDI5LjEzMTggMTUuNTkzOUMzMC4wMjgxIDE0Ljk0NiAzMC44MDcyIDE0LjEzNzMgMzEuNDIxNSAxMy4yMTY2QzMwLjU5OTEgMTMuNTgyMiAyOS43MTQxIDEzLjgyODQgMjguNzg1NCAxMy45Mzk1QzI5LjczMzMgMTMuMzcxIDMwLjQ2MDggMTIuNDcxOSAzMC44MDQxIDExLjQwMDVDMjkuOTE3IDExLjkyNjMgMjguOTM0OSAxMi4zMDgzIDI3Ljg4OTEgMTIuNTE0NkMyNy4wNTE0IDExLjYyMjMgMjUuODU4OCAxMS4wNjQxIDI0LjUzODMgMTEuMDY0MUMyMi4wMDMyIDExLjA2NDEgMTkuOTQ3MiAxMy4xMjAxIDE5Ljk0NzIgMTUuNjU0M0MxOS45NDcyIDE2LjAxNDQgMTkuOTg3OCAxNi4zNjQ3IDIwLjA2NjUgMTYuNzAxQzE2LjI1MTIgMTYuNTA5MSAxMi44NjggMTQuNjgyMyAxMC42MDQyIDExLjkwNDZDMTAuMjEgMTIuNTgzIDkuOTgyNiAxMy4zNzEgOS45ODI2IDE0LjIxMkM5Ljk4MjYgMTUuODA0NyAxMC43OTI4IDE3LjIxMDcgMTIuMDI1NSAxOC4wMzMxQzExLjI3MjMgMTguMDA5OSAxMC41NjQ5IDE3LjgwMyA5Ljk0NjI5IDE3LjQ1OTFDOS45NDU2OCAxNy40NzgzIDkuOTQ1NjggMTcuNDk2OSA5Ljk0NTY4IDE3LjUxNzdDOS45NDU2OCAxOS43NDA2IDExLjUyOCAyMS41OTcgMTMuNjI4NSAyMi4wMTc1QzEzLjI0MjggMjIuMTIyOCAxMi44MzY5IDIyLjE3OTMgMTIuNDE3OSAyMi4xNzkzQzEyLjEyMjggMjIuMTc5MyAxMS44MzUgMjIuMTUgMTEuNTU1MiAyMi4wOTYzQzEyLjEzOTkgMjMuOTIwMyAxMy44MzQyIDI1LjI0NzUgMTUuODQzOCAyNS4yODQ3QzE0LjI3MjUgMjYuNTE2MSAxMi4yOTMxIDI3LjI0OTggMTAuMTQyMiAyNy4yNDk4QzkuNzcyMDMgMjcuMjQ5OCA5LjQwNjQzIDI3LjIyODcgOS4wNDcyNCAyNy4xODYzQzExLjA3ODggMjguNDg4NSAxMy40OTEyIDI5LjI0ODQgMTYuMDgzNyAyOS4yNDg0QzI0LjUyNzYgMjkuMjQ4IDI5LjE0NDkgMjIuMjUzMSAyOS4xNDQ5IDE2LjE4NzFaIiBmaWxsPSIjRjJGMkYyIj48L3BhdGg+PC9zdmc+" height="40"></a><a class="sc-htpNat bUhGXt link sc-kEYyzF ecHxGW facebook" href="https://web.facebook.com/nigerianlibrary/" aria-label="Facebook" rel="noopener noreferrer" target="_blank"><img alt=" " class="sc-EHOje TsaZF" title="" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iMzkiIHZpZXdCb3g9IjAgMCA0MCAzOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDAgMTkuNDU5NUM0MCA4LjcxMzk0IDMxLjA0NCAwIDIwIDBDOC45NTU5OSAwIDAgOC43MTM5NCAwIDE5LjQ1OTVDMCAzMC4yMDUgOC45NTU5OSAzOC45MTg5IDIwIDM4LjkxODlDMjAuMTE3NSAzOC45MTg5IDIwLjIzNDQgMzguOTE2NSAyMC4zNTE2IDM4LjkxNDVWMjMuNzY2MUgxNi4wNTQ3VjE4Ljg5MzhIMjAuMzUxNlYxNS4zMDg0QzIwLjM1MTYgMTEuMTUwMiAyMi45NjA1IDguODg3MDUgMjYuNzcyOCA4Ljg4NzA1QzI4LjU5ODMgOC44ODcwNSAzMC4xNjc1IDkuMDE5NDggMzAuNjI1IDkuMDc4NTdWMTMuNDI0NEgyNy45OTYyQzI1LjkyMjIgMTMuNDI0NCAyNS41MjA2IDE0LjM4MzUgMjUuNTIwNiAxNS43OTA2VjE4Ljg5MzhIMzAuNDc5N0wyOS44MzM0IDIzLjc2NjFIMjUuNTIwNlYzOC4xNjcxQzMzLjg4MDMgMzUuODM1MyA0MCAyOC4zNDE4IDQwIDE5LjQ1OTVaIiBmaWxsPSIjRjJGMkYyIj48L3BhdGg+PC9zdmc+" height="40"></a>
-                  </nav>
-                </div>
-              </div>
-            </section></footer>
+         
         </div>
       </section>
       <noscript class="jsx-903e4b2e5d3241e4"><iframe
@@ -2852,6 +2393,384 @@ const single_article_base_html = `
         ></iframe
       ></noscript>
     </div>
+`;
+
+
+/***/ }),
+
+/***/ "./Utils/Data.js":
+/*!***********************!*\
+  !*** ./Utils/Data.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Single_Article_iframe_HTML: () => (/* binding */ Single_Article_iframe_HTML),
+/* harmony export */   articles: () => (/* binding */ articles)
+/* harmony export */ });
+const articles = [
+  {
+    id: 0,
+    article_name:
+      "Influence of Social Media on the Perceived Academic Performance of Undergraduate Students in Al-Hikmah University, Kwara State, Nigeria",
+    authors: ["Mojisola Omowumi Odewole", "Florence Olabisi Ajani"],
+    file_name:
+      "v1/Influence_of_Social_Media_on_the_Perceived_Academic_Performance_of_Undergraduate_Students_in_Al-Hikmah_University_Kwara_State_Nigeria.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 1,
+    article_name:
+      "Exploring Entrepreneurship Education and Library and Information Science Students for Employability in Nigerian Universities",
+    authors: ["Jude-Iwuoha Adaeze U", "Inemesit U. Udoh"],
+    file_name:
+      "v1/Exploring_Entrepreneurship_Education_and_Library_and_Information_Science_Students_for_Employability_in_Nigerian_Universities.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 2,
+    article_name:
+      "Inclusive Librarianship for Learners with Special Needs: rethinking the public and academic library system",
+    authors: [
+      "Ijeoma Dora ONYAM",
+      "Afebuameh James AIYEBELEHIN",
+      "Patricia Chika IKE",
+    ],
+    file_name:
+      "v1/Inclusive_Librarianship_for_Learners_with_Special_Needs_rethinking_the_public_and_academic_library_system.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 3,
+    article_name:
+      "The Effect of COVID 19 Pandemic on Library Services in Nigeria",
+    authors: ["Angela Ebele Okpala"],
+    file_name:
+      "v1/The_Effect_of_COVID_19_Pandemic_on_Library_Services_in_Nigeria.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 4,
+    article_name:
+      "Management of Information Resources through Integrated Emergent Technologies in Nigerian Libraries",
+    authors: ["Aramide, Kolawole Akinjide", "Mba, Chigozie Blessing"],
+    file_name:
+      "v1/Management_of_Information_Resources_through_Integrated_Emergent_Technologies_in_Nigerian_Libraries.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 5,
+    article_name:
+      "Management of Public Library Collections: A Case Study of Abia State Library Board, Umuahia, Nigeria",
+    authors: ["Felicia Eberechi Arisukwu", "Isaac M. Ogbonna"],
+    file_name:
+      "v1/Management_of_Public_Library_Collections_A_Case_Study_of_Abia_State_Library_Board_Umuahia_Nigeria.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 6,
+    article_name:
+      "Administration Practices and Challenges of Multi-Campus Libraries in a Digital Environment: The Experience of Osun State University",
+    authors: ["Oluwatosin Olubunmi OKUNOYE", "Ajibola Sunmade GBOTOSHO"],
+    file_name:
+      "v1/Administration_Practices_and_Challenges_of_Multi-Campus_Libraries_in_a_Digital_Environment_The_Experience_of_Osun_State_University.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 7,
+    article_name:
+      "Library and Information Services for Nursing Education: A Study of Faculty of Nursing, Ladoke Akintola University of Technology Ogbomoso, Oyo State, Nigeria",
+    authors: [
+      "Oladapo, Y. Oluremi",
+      "Salami, K. Olawunmi",
+      "Gariba, A. Olubunmi",
+      "Adeoye, M. Oladele",
+    ],
+    file_name:
+      "v1/Library_and_Information_Services_for_Nursing_Education_A_Study_of_Faculty_of_Nursing_Ladoke_Akintola_University_of_Technology_Ogbomoso_Oyo_State_Nigeria.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 8,
+    article_name:
+      "Undergraduate Students’ Use of the University Library and Access to Information in Madonna University, Okija, Nigeria",
+    authors: ["Obuezie, Adaora .C.", "Okpala Angela E.", "Okoye, Ifeoma .H."],
+    file_name:
+      "v1/Undergraduate_Students_Use_of_the_University_Library_and_Access_to_Information_in_Madonna_University_Okija_Nigeria.pdf",
+    volume_name: "Volume 1",
+    publish_date: "December 2021",
+  },
+  {
+    id: 9,
+    article_name:
+      "Currency and Relevancy of Reproductive Information Resources: A Focus on Teaching Hospital Medical Libraries in South East Nigeria",
+    authors: ["Oluchi Cecilia Okeke", "Edward C. Amadi"],
+    file_name:
+      "v2/Currency_and_Relevancy_of_Reproductive_Information_Resources_A_Focus_on_Teaching_Hospital_Medical_Libraries_in_South_East_Nigeria.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 10,
+    article_name:
+      "Utilization of Library Audiovisual Resources for Effective Teaching and Learning in Three Colleges of Education in Enugu State",
+    authors: ["Faith O. Mesagan", "Ibrahim M. M. Furfuri"],
+    file_name:
+      "v2/Utilization_of_Library_Audiovisual_Resources_for_Effective_Teaching_and_Learning_in_Three_Colleges_of_Education_in_Enugu_State.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 11,
+    article_name:
+      "Accessibility, Management and Use of Indigenous Knowledge in a Rural Community: The Case of Unwana Community, Afikpo North LGA, Ebonyi State",
+    authors: ["Carl N. Nworu", "Ahmed Abayomi Ayandokun"],
+    file_name:
+      "v2/Accessibility_Management_and_Use_of_Indigenous_Knowledge_in_a_Rural_Community_The_Case_of_Unwana_Community_Afikpo_North_LGA_Ebonyi_State.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 12,
+    article_name:
+      "An Exploratory Study on School Libraries and Media Resource Centers in Nigeria",
+    authors: ["Monica E. Eze"],
+    file_name:
+      "v2/An_Exploratory_Study_on_School_Libraries_and_Media_Resource_Centers_in_Nigeria.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 13,
+    article_name:
+      "Retrospective Conversion of Library Catalogue and Access to Information Resources in Nnamdi Azikiwe University, Awka",
+    authors: ["Perpetua Onyinyechi Ukwueze", "Jacinta U. Eze"],
+    file_name:
+      "v2/Retrospective_Conversion_of_Library_Catalogue_and_Access_to_Information_Resources_in_Nnamdi_Azikiwe_University_Awka.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 14,
+    article_name:
+      "The Politics of Media and Pandemic Misinformation: Librarians’ Role in Validation and Retraction of Conflicting Information",
+    authors: [
+      "Victor Nwankwo",
+      "Oghenemaga M. Ebobo",
+      "Chika P. Ike",
+      "Uche H. Igbo",
+    ],
+    file_name:
+      "v2/The_Politics_of_Media_and_Pandemic_Misinformation_Librarians_Role_in_Validation_and_Retraction_of_Conflicting_Information.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 15,
+    article_name:
+      "Fee-Based Services as Panacea to Financial Challenges in Academic Libraries in Nigeria: Issues for Consideration",
+    authors: ["Rose Uloma Ezeh"],
+    file_name:
+      "v2/Fee-Based_Services_as_Panacea_to_Financial_Challenges_in_Academic_Libraries_in_Nigeria_Issues_for_Consideration.pdf",
+    volume_name: "Volume 2 No. 1&2",
+    publish_date: "December 2022",
+  },
+  {
+    id: 16,
+    article_name:
+      "Provision and Utilization of Library Resources and Services in Selected Public and Private Secondary Schools in Owerri Municipality, Imo State, Nigeria",
+    authors: ["Chizoba D. NNADOZIE", "Concilia O. ENWEGBARA"],
+    file_name:
+      "v31/Provision_and_Utilization_of_Library_Resources_and_Services_in_Selected_Public_and_Private_Secondary_Schools_in_Owerri_Municipality_Imo_State_Nigeria.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 17,
+    article_name:
+      "Value Added Education in Librarianship: Context for Sustainable Development",
+    authors: [
+      "Y O. OLADAPO",
+      "M.O ADEOYE",
+      "A.I ADEGUN",
+      "A.O GARIBA",
+      "K.O SALAMI",
+      "F. S KOLAJO",
+    ],
+    file_name:
+      "v31/Value_Added_Education_in_Librarianship_Context_for_Sustainable_Development.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 18,
+    article_name:
+      "Aligning Ranganathan Laws of Librarianship to today’s Reality of Information",
+    authors: [
+      "Yakubu Attahiru LIMAN",
+      "Abubakar Yakubu MUSA",
+      "Folasade ADEPOJU",
+    ],
+    file_name:
+      "v31/Aligning_Ranganathan_Laws_of_Librarianship_to_todays_Reality_of_Information.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 19,
+    article_name:
+      "Librarians' Awareness of Online Information Services and Resources for Effective Services Delivery in Public University Libraries in South-East, Nigeria",
+    authors: ["Edward C. R. AMADI", "Anezi Leonard EZEMA", "Chioma EKENNA"],
+    file_name:
+      "v31/Librarians_Awareness_of_Online_Information_Services_and_Resources_for_Effective_Services_Delivery_in_Public_University_Libraries_in_South-East_Nigeria.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 20,
+    article_name:
+      "Health Information Literacy: Early Warning System against Covid 19 Pandemic in Nigeria",
+    authors: ["Adaeze U. JUDE-IWUOHA", "Basil EDOM"],
+    file_name:
+      "v31/Health_Information_Literacy_Early_Warning_System_against_Covid_19_Pandemic_in_Nigeria.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 21,
+    article_name:
+      "Health Information Services Delivery for Prevention and Treatment of Infertility in Teaching Hospital Libraries",
+    authors: ["Oluchi C. OKEKE", "Augustine Chibueze OPAH"],
+    file_name:
+      "v31/Health_Information_Services_Delivery_for_Prevention_and_Treatment_of_Infertility_in_Teaching_Hospital_Libraries.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 22,
+    article_name:
+      "Sustainable Book Publishing Companies in Nigeria and Job Creation for National Development",
+    authors: [
+      "Jude Ikechukwu ASOGWA",
+      "Martha Chidiebere UGWUANYI",
+      "Elizabeth Chinyere EGBUCHUA",
+      "Mercy Nnenna ABAH",
+    ],
+    file_name:
+      "v31/Sustainable_Book_Publishing_Companies_in_Nigeria_and_Job_Creation_for_National_Development.pdf",
+    volume_name: "Volume 3 No. 1",
+    publish_date: "June 2023",
+  },
+  {
+    id: 23,
+    article_name:
+      "Utilization of Information on Post-Harvest Technology by Agro-Based Women Entrepreneurs in Abia State, Nigeria",
+    authors: [
+      "Amarachi C. UKPABI",
+      "Emeka G. OKEH",
+      "Joy ONYENACHI",
+      "Ukpabi J. UKPABI",
+    ],
+    file_name:
+      "v32/Utilization_of_Information_on_Post-Harvest_Technology_by_Agro-Based_Women_Entrepreneurs_in_Abia_State_Nigeria.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 24,
+    article_name:
+      "Challenges of Provision and Utilization of Fertility Health Information Resources and Services in Medical Libraries of Teaching Hospitals in South East Nigeria",
+    authors: ["R.E. OZIOKO", "J. C. ONYENACHI", "O.C. OKEKE"],
+    file_name:
+      "v32/Challenges_of_Provision_and_Utilization_of_Fertility_Health_Information_Resources_and_Services_in_Medical_Libraries_of_Teaching_Hospitals_in_South_East_Nigeria.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 25,
+    article_name:
+      "Multimedia Skills for the Implementation of E-Learning in Niger Delta University, Bayelsa State",
+    authors: ["Pereware A. TIEMO", "Ebiye V. EDONKUMOH", "Joy O. OGBORU-ASABA"],
+    file_name:
+      "v32/Multimedia_Skills_for_the_Implementation_of_E-Learning_in_Niger_Delta_University_Bayelsa_State.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 26,
+    article_name:
+      "Extent of the Use of Library Management Software Packages in Selected University Libraries in South West Nigeria",
+    authors: ["Emeka C. UZOMBA"],
+    file_name:
+      "v32/Extent_of_the_Use_of_Library_Management_Software_Packages_in_Selected_University_Libraries_in_South_West_Nigeria.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 27,
+    article_name:
+      "Awareness and Utilization of Social Media for Information Repackaging in University Libraries in Edo State, Nigeria",
+    authors: ["Igie J. ABA", "Osasu T. MAKINDE", "Faith O. OSOBASE"],
+    file_name:
+      "v32/Awareness_and_Utilization_of_Social_Media_for_Information_Repackaging_in_University_Libraries_in_Edo_State_Nigeria.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 28,
+    article_name:
+      "Digital Literacy Skills of Librarians in Providing Digital Reference Services in Selected Universities in Kano Metropolis: A survey",
+    authors: ["Bala AHMED", "Abdulrahman A. DANGALADIMA"],
+    file_name:
+      "v32/Digital_Literacy_Skills_of_Librarians_in_Providing_Digital_Reference_Services_in_Selected_Universities_in_Kano_Metropolis_A_survey.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 29,
+    article_name:
+      "Factors Affecting Information Seeking Strategies of Orange Farmers in Nigeria: A Proposed Model from the Literature",
+    authors: ["Tertsea MENENGE", "A. A MAIDABINO"],
+    file_name:
+      "v32/Factors_Affecting_Information_Seeking_Strategies_of_Orange_Farmers_in_Nigeria_A_Proposed_Model_from_the_Literature.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+  {
+    id: 30,
+    article_name:
+      "Navigating Towards Entrepreneurial Librarianship in Nigeria: a Gateway to Wealth Creation",
+    authors: [
+      "Promise I. ILO",
+      "B. Eze ASOGWA",
+      "ANIKE, C. Joy",
+      "Chiegonu B. NWACHI",
+    ],
+    file_name:
+      "v32/Navigating_Towards_Entrepreneurial_Librarianship_in_Nigeria_a_Gateway_to_Wealth_Creation.pdf",
+    volume_name: "Volume 3 No. 2",
+    publish_date: "December 2023",
+  },
+];
+
+const Single_Article_iframe_HTML = `
+<iframe
+  src="XXARTICLESOURCEXX"
+  frameborder="0"
+  scrolling="auto"
+  height="100%"
+  width="100%"
+></iframe>
+
 `;
 
 
@@ -3085,72 +3004,13 @@ const Single_News = {
 };
 
 const Single_Article_HTML = `
-<h4 class="header" id="abstract">Abstract</h4>
-<p>
-  This study explores the impact of digital libraries on academic research in
-  Nigerian universities. The findings suggest significant improvements in
-  accessibility and efficiency. By providing a wide range of resources that are
-  easily accessible, digital libraries have enhanced the research capabilities
-  of students and faculty members. This has led to more comprehensive and
-  up-to-date research outputs, contributing to the academic growth of Nigerian
-  institutions.
-</p>
-<span class="end-abs"></span>
-<h4 id="introduction">1. Introduction</h4>
-<p>
-  The advent of digital libraries has revolutionized academic research by
-  offering unprecedented access to a wealth of information. In the context of
-  Nigerian universities, where traditional libraries often face challenges such
-  as limited resources and outdated materials, digital libraries present a
-  significant advancement. This study examines the effects of digital libraries
-  on research productivity, focusing on how they improve accessibility and
-  efficiency in academic settings.
-</p>
-<h4 id="methodology">2. Methodology</h4>
-<p>
-  This research involved a survey of faculty members and students from various
-  Nigerian universities. Data was collected on their use of digital libraries,
-  the frequency of use, and the perceived impact on their research activities.
-  The study also included interviews with library staff to gain insights into
-  the operational aspects and challenges of maintaining digital libraries.
-</p>
-<h4 id="results">3. Results</h4>
-<p>
-  The findings indicate that digital libraries significantly enhance research
-  activities in Nigerian universities. Over 80% of respondents reported
-  increased accessibility to academic resources, and 75% noted improved research
-  efficiency. The availability of up-to-date journals, books, and other
-  resources has enabled researchers to stay current with global academic trends
-  and produce high-quality research outputs.
-</p>
-<h4 id="discussion">4. Discussion</h4>
-<p>
-  The study highlights the transformative impact of digital libraries on
-  academic research. Enhanced accessibility to a wide range of resources reduces
-  the time spent searching for materials, allowing researchers to focus more on
-  analysis and writing. Additionally, the integration of digital libraries with
-  other academic tools further streamlines the research process.
-</p>
-<h4 id="conclusion">5. Conclusion</h4>
-<p>
-  Digital libraries play a crucial role in advancing academic research in
-  Nigerian universities. By addressing the limitations of traditional libraries,
-  they provide a more efficient and accessible means of obtaining research
-  materials. As digital infrastructure continues to improve, the impact of
-  digital libraries on academic research is expected to grow, further
-  contributing to the development of Nigerian higher education.
-</p>
-<h4 id="references">6. References</h4>
-<p>
-  [1] A. Smith, “The Role of Digital Libraries in Academic Research,” Journal of
-  Library Science, vol. 34, no. 2, pp. 123-145, 2020.<br />
-  [2] B. Johnson, “Enhancing Research Efficiency through Digital Libraries,”
-  International Journal of Educational Research, vol. 29, no. 1, pp. 67-89,
-  2021.<br />
-  [3] C. Williams, “Digital Libraries: A Solution to Resource Limitations in
-  Nigerian Universities,” African Journal of Information Science, vol. 17, no.
-  3, pp. 45-60, 2022.
-</p>
+<iframe
+  src="XXARTICLESOURCEXX"
+  frameborder="0"
+  scrolling="auto"
+  height="100%"
+  width="100%"
+></iframe>
 
 `;
 
@@ -3200,10 +3060,15 @@ const Single_News_HTML = `
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   FileServer: () => (/* binding */ FileServer),
 /* harmony export */   Placeholders: () => (/* binding */ Placeholders),
 /* harmony export */   Routes: () => (/* binding */ Routes),
-/* harmony export */   Selectors: () => (/* binding */ Selectors)
+/* harmony export */   Selectors: () => (/* binding */ Selectors),
+/* harmony export */   WebServer: () => (/* binding */ WebServer)
 /* harmony export */ });
+const FileServer = "http://127.0.0.1:8080/";
+const WebServer = "http://127.0.0.1:5500/";
+
 const Selectors = {
   Navbar: {
     logo: ".logo",
@@ -3249,6 +3114,13 @@ const Selectors = {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
     text_container: ".text_container",
   },
+  Current_Issue: {
+    Container: ".current_issues_container",
+    Artilce_Name_Link: ".article_name_link",
+    Download_Pdf_Button: ".download_pdf_button",
+    Main_Title: ".large_title",
+    Main_Publish_Date: ".main_publish_date",
+  },
 };
 
 const Placeholders = {
@@ -3288,6 +3160,7 @@ const Placeholders = {
       article_abstract: "XXXARTICLE_ABSTRACTXXX",
       article_authors: "XXXARTICLE_AUTHORSXXX",
       article_publish_date: "XXXARTICLE_PUBLISH_DATEXXX",
+      article_pdf_source: "XXARTICLESOURCEXX",
     },
   },
 
@@ -3331,6 +3204,13 @@ const Placeholders = {
     news_title: "XXXNEWS_TITLEXXX",
     news_image_src: "XXXNEWS_IMAGE_SRCXXX",
     news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
+  },
+  Current_Issue: {
+    article_name: "XXXARTICLENAMEXXX",
+    article_pages: "XXXPAGESXXX",
+    article_authors: "XXXARTICLEAUTHORSXXX",
+    article_href: "XXHREFXX",
+    article_name_href: "XXNAMEHREFXX",
   },
 };
 
@@ -3414,11 +3294,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Utils/General_Utils */ "./Utils/General_Utils.js");
 /* harmony import */ var _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Utils/Mock_Data */ "./Utils/Mock_Data.js");
 /* harmony import */ var _Html_Templates_Single_Article_Base_Html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Html_Templates/Single_Article_Base_Html */ "./Html_Templates/Single_Article_Base_Html.js");
+/* harmony import */ var _Utils_Data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Utils/Data */ "./Utils/Data.js");
 
 
 
 
 
+
+
+const getArticle = (articleId) => {
+  return _Utils_Data__WEBPACK_IMPORTED_MODULE_4__.articles.find((el) => el.id == articleId);
+};
+
+const urlParams = new URLSearchParams(window.location.href);
+const articleId = urlParams.get("articleId");
+const articleData = getArticle(articleId);
+const articleFileServer = "http://127.0.0.1:8080/";
+const mainAuthor = articleData.authors[0];
+const otherAuthors = articleData.authors.slice(1).join(", ");
+const articlePath = articleFileServer + articleData.file_name;
+
+let temp_single_artile_body = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
+  _Utils_Data__WEBPACK_IMPORTED_MODULE_4__.Single_Article_iframe_HTML,
+  _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Articles.single_article.article_pdf_source,
+  articlePath
+);
 const inject_page = () => {
   let temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     _Html_Templates_Single_Article_Base_Html__WEBPACK_IMPORTED_MODULE_3__.single_article_base_html,
@@ -3426,11 +3326,11 @@ const inject_page = () => {
     _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.article_doi_link_href
   );
 
-  temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
-    temp_single_article_page,
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.article_doi_link_text,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.article_doi_link_text
-  );
+  // temp_single_article_page = applyPlaceholder(
+  //   temp_single_article_page,
+  //   Placeholders.Single_Article.article_doi_link_text,
+  //   Single_Article.article_doi_link_text
+  // );
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
@@ -3441,19 +3341,19 @@ const inject_page = () => {
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.article_main_author,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.article_main_author
+    mainAuthor
   );
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.article_other_authors,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.article_other_authors
+    otherAuthors
   );
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.article_title_large,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.article_title_large
+    articleData.article_name
   );
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
@@ -3464,49 +3364,30 @@ const inject_page = () => {
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.volume_year,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.volume_year
-  );
-
-  temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
-    temp_single_article_page,
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.volume_label,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.volume_label
-  );
-
-  temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
-    temp_single_article_page,
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.dates.accepted,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.dates.accepted
+    articleData.volume_name
   );
 
   temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
     temp_single_article_page,
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.dates.published,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.dates.published
-  );
-
-  temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
-    temp_single_article_page,
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.dates.received,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.dates.received
-  );
-
-  temp_single_article_page = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.applyPlaceholder)(
-    temp_single_article_page,
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Placeholders.Single_Article.dates.revised,
-    _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article.dates.revised
+    articleData.publish_date
   );
 
   (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.insertInnerHtml)("body", temp_single_article_page);
 };
 
 const inject_article_content = () => {
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.insertInnerHtml)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Selectors.Single_Article.text_container, _Utils_Mock_Data__WEBPACK_IMPORTED_MODULE_2__.Single_Article_HTML);
+  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.insertInnerHtml)(
+    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Selectors.Single_Article.text_container,
+    temp_single_artile_body
+  );
 };
 
 inject_page();
 inject_article_content();
+(0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Selectors.Single_Article.Download_Pdf_Button).href = articlePath;
+
 // selectElement(Selectors.NLA_Enugu_State_Chapter_bread_crumbs_Button).href =
 //   Routes.Homepage;
 

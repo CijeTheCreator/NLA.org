@@ -1,3 +1,6 @@
+export const FileServer = "http://127.0.0.1:8080/";
+export const WebServer = "http://127.0.0.1:5500/";
+
 export const Selectors = {
   Navbar: {
     logo: ".logo",
@@ -43,6 +46,13 @@ export const Selectors = {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
     text_container: ".text_container",
   },
+  Current_Issue: {
+    Container: ".current_issues_container",
+    Artilce_Name_Link: ".article_name_link",
+    Download_Pdf_Button: ".download_pdf_button",
+    Main_Title: ".large_title",
+    Main_Publish_Date: ".main_publish_date",
+  },
 };
 
 export const Placeholders = {
@@ -82,6 +92,7 @@ export const Placeholders = {
       article_abstract: "XXXARTICLE_ABSTRACTXXX",
       article_authors: "XXXARTICLE_AUTHORSXXX",
       article_publish_date: "XXXARTICLE_PUBLISH_DATEXXX",
+      article_pdf_source: "XXARTICLESOURCEXX",
     },
   },
 
@@ -125,6 +136,13 @@ export const Placeholders = {
     news_title: "XXXNEWS_TITLEXXX",
     news_image_src: "XXXNEWS_IMAGE_SRCXXX",
     news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
+  },
+  Current_Issue: {
+    article_name: "XXXARTICLENAMEXXX",
+    article_pages: "XXXPAGESXXX",
+    article_authors: "XXXARTICLEAUTHORSXXX",
+    article_href: "XXHREFXX",
+    article_name_href: "XXNAMEHREFXX",
   },
 };
 

@@ -9,6 +9,7 @@ module.exports = {
     news: path.resolve(__dirname, "src/news.js"),
     single_news: path.resolve(__dirname, "src/single_news.js"),
     single_article: path.resolve(__dirname, "src/single_article.js"),
+    current_issue: path.resolve(__dirname, "src/current.js"),
   },
   output: {
     path: path.resolve(__dirname, "dist"),

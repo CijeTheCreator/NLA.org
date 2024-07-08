@@ -41,6 +41,7 @@ const populate_page = () => {
 
     return temp_article_html;
   }).join(" ");
+  console.log(articles_html_template);
   insertInnerHtml(Selectors.Articles.articles_container, articles_html_filled);
 };
 

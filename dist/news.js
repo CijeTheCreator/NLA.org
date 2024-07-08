@@ -270,72 +270,13 @@ const Single_News = {
 };
 
 const Single_Article_HTML = `
-<h4 class="header" id="abstract">Abstract</h4>
-<p>
-  This study explores the impact of digital libraries on academic research in
-  Nigerian universities. The findings suggest significant improvements in
-  accessibility and efficiency. By providing a wide range of resources that are
-  easily accessible, digital libraries have enhanced the research capabilities
-  of students and faculty members. This has led to more comprehensive and
-  up-to-date research outputs, contributing to the academic growth of Nigerian
-  institutions.
-</p>
-<span class="end-abs"></span>
-<h4 id="introduction">1. Introduction</h4>
-<p>
-  The advent of digital libraries has revolutionized academic research by
-  offering unprecedented access to a wealth of information. In the context of
-  Nigerian universities, where traditional libraries often face challenges such
-  as limited resources and outdated materials, digital libraries present a
-  significant advancement. This study examines the effects of digital libraries
-  on research productivity, focusing on how they improve accessibility and
-  efficiency in academic settings.
-</p>
-<h4 id="methodology">2. Methodology</h4>
-<p>
-  This research involved a survey of faculty members and students from various
-  Nigerian universities. Data was collected on their use of digital libraries,
-  the frequency of use, and the perceived impact on their research activities.
-  The study also included interviews with library staff to gain insights into
-  the operational aspects and challenges of maintaining digital libraries.
-</p>
-<h4 id="results">3. Results</h4>
-<p>
-  The findings indicate that digital libraries significantly enhance research
-  activities in Nigerian universities. Over 80% of respondents reported
-  increased accessibility to academic resources, and 75% noted improved research
-  efficiency. The availability of up-to-date journals, books, and other
-  resources has enabled researchers to stay current with global academic trends
-  and produce high-quality research outputs.
-</p>
-<h4 id="discussion">4. Discussion</h4>
-<p>
-  The study highlights the transformative impact of digital libraries on
-  academic research. Enhanced accessibility to a wide range of resources reduces
-  the time spent searching for materials, allowing researchers to focus more on
-  analysis and writing. Additionally, the integration of digital libraries with
-  other academic tools further streamlines the research process.
-</p>
-<h4 id="conclusion">5. Conclusion</h4>
-<p>
-  Digital libraries play a crucial role in advancing academic research in
-  Nigerian universities. By addressing the limitations of traditional libraries,
-  they provide a more efficient and accessible means of obtaining research
-  materials. As digital infrastructure continues to improve, the impact of
-  digital libraries on academic research is expected to grow, further
-  contributing to the development of Nigerian higher education.
-</p>
-<h4 id="references">6. References</h4>
-<p>
-  [1] A. Smith, “The Role of Digital Libraries in Academic Research,” Journal of
-  Library Science, vol. 34, no. 2, pp. 123-145, 2020.<br />
-  [2] B. Johnson, “Enhancing Research Efficiency through Digital Libraries,”
-  International Journal of Educational Research, vol. 29, no. 1, pp. 67-89,
-  2021.<br />
-  [3] C. Williams, “Digital Libraries: A Solution to Resource Limitations in
-  Nigerian Universities,” African Journal of Information Science, vol. 17, no.
-  3, pp. 45-60, 2022.
-</p>
+<iframe
+  src="XXARTICLESOURCEXX"
+  frameborder="0"
+  scrolling="auto"
+  height="100%"
+  width="100%"
+></iframe>
 
 `;
 
@@ -385,10 +326,15 @@ const Single_News_HTML = `
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   FileServer: () => (/* binding */ FileServer),
 /* harmony export */   Placeholders: () => (/* binding */ Placeholders),
 /* harmony export */   Routes: () => (/* binding */ Routes),
-/* harmony export */   Selectors: () => (/* binding */ Selectors)
+/* harmony export */   Selectors: () => (/* binding */ Selectors),
+/* harmony export */   WebServer: () => (/* binding */ WebServer)
 /* harmony export */ });
+const FileServer = "http://127.0.0.1:8080/";
+const WebServer = "http://127.0.0.1:5500/";
+
 const Selectors = {
   Navbar: {
     logo: ".logo",
@@ -434,6 +380,13 @@ const Selectors = {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
     text_container: ".text_container",
   },
+  Current_Issue: {
+    Container: ".current_issues_container",
+    Artilce_Name_Link: ".article_name_link",
+    Download_Pdf_Button: ".download_pdf_button",
+    Main_Title: ".large_title",
+    Main_Publish_Date: ".main_publish_date",
+  },
 };
 
 const Placeholders = {
@@ -473,6 +426,7 @@ const Placeholders = {
       article_abstract: "XXXARTICLE_ABSTRACTXXX",
       article_authors: "XXXARTICLE_AUTHORSXXX",
       article_publish_date: "XXXARTICLE_PUBLISH_DATEXXX",
+      article_pdf_source: "XXARTICLESOURCEXX",
     },
   },
 
@@ -516,6 +470,13 @@ const Placeholders = {
     news_title: "XXXNEWS_TITLEXXX",
     news_image_src: "XXXNEWS_IMAGE_SRCXXX",
     news_image_alt: "XXXNEWS_IMAGE_ALTXXX",
+  },
+  Current_Issue: {
+    article_name: "XXXARTICLENAMEXXX",
+    article_pages: "XXXPAGESXXX",
+    article_authors: "XXXARTICLEAUTHORSXXX",
+    article_href: "XXHREFXX",
+    article_name_href: "XXNAMEHREFXX",
   },
 };
 
