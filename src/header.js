@@ -1,50 +1,46 @@
-// import { footer_html } from "../Html_Templates/Footer_Html";
-// import { header_html } from "../Html_Templates/Header_Html";
-// import {
-//   addEventListener,
-//   insertInnerHtml,
-//   removeAllHrefs,
-//   selectElement,
-//   selectElements,
-// } from "../Utils/General_Utils";
-// import { Routes, Selectors } from "../Utils/Selectors_And_PlaceHolders";
+import { footer_html } from "../Html_Templates/Footer_Html";
+import { header_html } from "../Html_Templates/Header_Html";
+import {
+  addEventListener,
+  insertInnerHtml,
+  removeAllHrefs,
+  selectElement,
+  selectElements,
+} from "../Utils/General_Utils";
+import {
+  Routes,
+  Selectors,
+  WebServer,
+} from "../Utils/Selectors_And_PlaceHolders";
 
-// const logoOnClickHandler = (e) => {
-//   e.preventDefault();
-//   window.location.href = Routes.Homepage;
-// };
+//Insert Header
+insertInnerHtml("header", header_html);
+// insertInnerHtml("footer", "");
 
-// const articlesOnClickHandler = (e) => {
-//   e.preventDefault();
-//   window.location.href = Routes.Articles;
-// };
+const headerElements = Selectors.Navbar;
 
-// const newsOnClickHandler = (e) => {
-//   e.preventDefault();
-//   window.location.href = Routes.News;
-// };
+selectElement(headerElements.archive_button).href = Routes.Archives;
+selectElement(headerElements.current_button).href = Routes.Current;
+selectElement(headerElements.contact_button).href = Routes.Contact;
+selectElement(headerElements.note_to_authors_button).href =
+  Routes.NotesToAuthors;
+selectElement(headerElements.editorial_team_button).href =
+  Routes.EditorialBoard;
+selectElement(headerElements.news_button).href = Routes.News;
 
-// const searchOnClickHandler = (e) => {
-//   e.preventDefault();
-//   window.location.href = Routes.Articles;
-// };
+if (window.location.href != WebServer) {
+  selectElement("body").style.marginTop = "100px";
+}
 
-// const attachEventListeners = (e) => {
-//   addEventListener(Selectors.Navbar.logo, logoOnClickHandler);
-//   addEventListener(Selectors.Navbar.articles_button, articlesOnClickHandler);
-//   addEventListener(Selectors.Navbar.news_button, newsOnClickHandler);
-//   addEventListener(Selectors.Navbar.search_button, searchOnClickHandler);
-// };
+document.querySelector("header .logo").href = Routes.Homepage;
 
-// //Insert Header
-// insertInnerHtml("header", header_html);
-// insertInnerHtml("footer", footer_html);
+// selectElement("footer").style.position = "absolute";
+// selectElement("footer").style.bottom = "0";
+// selectElement("footer").style.left = "0";
+// selectElement("footer").style.right = "0";
 
-// removeAllHrefs();
-// attachEventListeners();
+// selectElement(Selectors.Footer.Facebook).href =
+//   "https://web.facebook.com/nigerianlibrary/";
 
-// // selectElement(Selectors.Footer.Facebook).href =
-// //   "https://web.facebook.com/nigerianlibrary/";
-
-// // selectElement(Selectors.Footer.Twitter).href =
-// //   "https://twitter.com/nla_ng?lang=en";
+// selectElement(Selectors.Footer.Twitter).href =
+//   "https://twitter.com/nla_ng?lang=en";

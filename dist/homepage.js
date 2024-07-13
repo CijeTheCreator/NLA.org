@@ -390,6 +390,11 @@ const Selectors = {
     articles_button: ".articles_button",
     news_button: ".news_button",
     search_button: ".search_button",
+    note_to_authors_button: ".note_to_authors_button",
+    current_button: ".current_Button",
+    archive_button: ".archive_button",
+    editorial_team_button: ".editorial_team_button",
+    contact_button: ".contact_button",
   },
   Footer: {
     Facebook: ".facebook",
@@ -407,6 +412,7 @@ const Selectors = {
       latest_news: ".latest_news_card",
       see_more_button: ".see_more_latest_news_button",
     },
+    current_volume: ".current_volume",
   },
   Articles: {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
@@ -544,6 +550,11 @@ const Routes = {
   Single_News: "http://127.0.0.1:5500/Single%20Nes.html",
   ArticleImages: "http://127.0.0.1:5500/Resources/Articles/",
   NewsImages: "http://127.0.0.1:5500/Resources/News/",
+  EditorialBoard: "http://127.0.0.1:5500/EditorialBoard.html",
+  NotesToAuthors: "http://127.0.0.1:5500/NoteToAuthors.html",
+  Contact: "http://127.0.0.1:5500/Contact.html",
+  Archives: "http://127.0.0.1:5500/Archives.html",
+  Current: "http://127.0.0.1:5500/issue.html?site=nla&issue=Volume3No.2",
 };
 
 
@@ -646,23 +657,13 @@ const seeMoreNewsOnClickEventHandler = () => {
 //   window.location.href = Routes.Single_Article;
 // };
 
-const attachEventHandlers = () => {
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.addEventListener)(
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles_button,
-    ourArticlesOnClickEventHandler
-  );
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.addEventListener)(
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles.see_more_button,
-    seeMoreArticlesOnClickEventHandler
-  );
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.addEventListener)(
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles.see_more_button,
-    seeMoreArticlesOnClickEventHandler
-  );
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.addEventListener)(
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.latest_news.see_more_button,
-    seeMoreNewsOnClickEventHandler
-  );
+const attachHrefs = () => {
+  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles_button).href = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Archives;
+  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles.see_more_button).href =
+    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Archives;
+  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.current_volume).href = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Current;
+  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.latest_news.see_more_button).href =
+    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.News;
 };
 
 // const populateArticles = () => {
@@ -737,26 +738,17 @@ const populateNews = () => {
 };
 
 const addHrefsToNewsAndArticles = () => {
-  const articles = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElements)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles.articles);
-  for (let i = 0; i < articles.length; i++) {
-    articles[i].href = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Single_Article;
-  }
-
   const news = (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElements)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.latest_news.latest_news);
   for (let i = 0; i < news.length; i++) {
     news[i].href = _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Single_News;
   }
-
-  (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.our_articles.see_more_button).href =
-    _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.Articles;
-
   (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_2__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Selectors.Homepage.latest_news.see_more_button).href =
     _Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_4__.Routes.News;
 };
 
 // populateArticles();
 populateNews();
-attachEventHandlers();
+attachHrefs();
 addHrefsToNewsAndArticles();
 
 })();

@@ -7,6 +7,11 @@ export const Selectors = {
     articles_button: ".articles_button",
     news_button: ".news_button",
     search_button: ".search_button",
+    note_to_authors_button: ".note_to_authors_button",
+    current_button: ".current_Button",
+    archive_button: ".archive_button",
+    editorial_team_button: ".editorial_team_button",
+    contact_button: ".contact_button",
   },
   Footer: {
     Facebook: ".facebook",
@@ -24,6 +29,7 @@ export const Selectors = {
       latest_news: ".latest_news_card",
       see_more_button: ".see_more_latest_news_button",
     },
+    current_volume: ".current_volume",
   },
   Articles: {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
@@ -161,4 +167,9 @@ export const Routes = {
   Single_News: "http://127.0.0.1:5500/Single%20Nes.html",
   ArticleImages: "http://127.0.0.1:5500/Resources/Articles/",
   NewsImages: "http://127.0.0.1:5500/Resources/News/",
+  EditorialBoard: "http://127.0.0.1:5500/EditorialBoard.html",
+  NotesToAuthors: "http://127.0.0.1:5500/NoteToAuthors.html",
+  Contact: "http://127.0.0.1:5500/Contact.html",
+  Archives: "http://127.0.0.1:5500/Archives.html",
+  Current: "http://127.0.0.1:5500/issue.html?site=nla&issue=Volume3No.2",
 };

@@ -38,23 +38,13 @@ const seeMoreNewsOnClickEventHandler = () => {
 //   window.location.href = Routes.Single_Article;
 // };
 
-const attachEventHandlers = () => {
-  addEventListener(
-    Selectors.Homepage.our_articles_button,
-    ourArticlesOnClickEventHandler
-  );
-  addEventListener(
-    Selectors.Homepage.our_articles.see_more_button,
-    seeMoreArticlesOnClickEventHandler
-  );
-  addEventListener(
-    Selectors.Homepage.our_articles.see_more_button,
-    seeMoreArticlesOnClickEventHandler
-  );
-  addEventListener(
-    Selectors.Homepage.latest_news.see_more_button,
-    seeMoreNewsOnClickEventHandler
-  );
+const attachHrefs = () => {
+  selectElement(Selectors.Homepage.our_articles_button).href = Routes.Archives;
+  selectElement(Selectors.Homepage.our_articles.see_more_button).href =
+    Routes.Archives;
+  selectElement(Selectors.Homepage.current_volume).href = Routes.Current;
+  selectElement(Selectors.Homepage.latest_news.see_more_button).href =
+    Routes.News;
 };
 
 // const populateArticles = () => {
@@ -129,24 +119,15 @@ const populateNews = () => {
 };
 
 const addHrefsToNewsAndArticles = () => {
-  const articles = selectElements(Selectors.Homepage.our_articles.articles);
-  for (let i = 0; i < articles.length; i++) {
-    articles[i].href = Routes.Single_Article;
-  }
-
   const news = selectElements(Selectors.Homepage.latest_news.latest_news);
   for (let i = 0; i < news.length; i++) {
     news[i].href = Routes.Single_News;
   }
-
-  selectElement(Selectors.Homepage.our_articles.see_more_button).href =
-    Routes.Articles;
-
   selectElement(Selectors.Homepage.latest_news.see_more_button).href =
     Routes.News;
 };
 
 // populateArticles();
 populateNews();
-attachEventHandlers();
+attachHrefs();
 addHrefsToNewsAndArticles();

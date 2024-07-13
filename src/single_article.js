@@ -95,5 +95,6 @@ inject_page();
 inject_article_content();
 selectElement(Selectors.Single_Article.Download_Pdf_Button).href = articlePath;
 
+selectElement("#__next > section > main").style.marginTop = "0px";
 // selectElement(Selectors.NLA_Enugu_State_Chapter_bread_crumbs_Button).href =
 //   Routes.Homepage;

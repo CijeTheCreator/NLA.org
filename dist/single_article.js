@@ -3242,6 +3242,11 @@ const Selectors = {
     articles_button: ".articles_button",
     news_button: ".news_button",
     search_button: ".search_button",
+    note_to_authors_button: ".note_to_authors_button",
+    current_button: ".current_Button",
+    archive_button: ".archive_button",
+    editorial_team_button: ".editorial_team_button",
+    contact_button: ".contact_button",
   },
   Footer: {
     Facebook: ".facebook",
@@ -3259,6 +3264,7 @@ const Selectors = {
       latest_news: ".latest_news_card",
       see_more_button: ".see_more_latest_news_button",
     },
+    current_volume: ".current_volume",
   },
   Articles: {
     NLA_Enugu_State_Chapter_bread_crumbs_Button: ".nlaescb",
@@ -3396,6 +3402,11 @@ const Routes = {
   Single_News: "http://127.0.0.1:5500/Single%20Nes.html",
   ArticleImages: "http://127.0.0.1:5500/Resources/Articles/",
   NewsImages: "http://127.0.0.1:5500/Resources/News/",
+  EditorialBoard: "http://127.0.0.1:5500/EditorialBoard.html",
+  NotesToAuthors: "http://127.0.0.1:5500/NoteToAuthors.html",
+  Contact: "http://127.0.0.1:5500/Contact.html",
+  Archives: "http://127.0.0.1:5500/Archives.html",
+  Current: "http://127.0.0.1:5500/issue.html?site=nla&issue=Volume3No.2",
 };
 
 
@@ -3562,6 +3573,7 @@ inject_page();
 inject_article_content();
 (0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.selectElement)(_Utils_Selectors_And_PlaceHolders__WEBPACK_IMPORTED_MODULE_0__.Selectors.Single_Article.Download_Pdf_Button).href = articlePath;
 
+(0,_Utils_General_Utils__WEBPACK_IMPORTED_MODULE_1__.selectElement)("#__next > section > main").style.marginTop = "0px";
 // selectElement(Selectors.NLA_Enugu_State_Chapter_bread_crumbs_Button).href =
 //   Routes.Homepage;
 
