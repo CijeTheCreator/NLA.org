@@ -28,7 +28,7 @@ selectElement(headerElements.editorial_team_button).href =
   Routes.EditorialBoard;
 selectElement(headerElements.news_button).href = Routes.News;
 
-if (window.location.href != WebServer) {
+if (window.location.href != WebServer && window.innerWidth > 768) {
   selectElement("body").style.marginTop = "100px";
 }
 
@@ -44,3 +44,9 @@ document.querySelector("header .logo").href = Routes.Homepage;
 
 // selectElement(Selectors.Footer.Twitter).href =
 //   "https://twitter.com/nla_ng?lang=en";
+
+if (window.innerWidth <= 768) {
+  selectElement("body").style.marginTop = `${
+    document.querySelector("header").clientHeight
+  }px`;
+}

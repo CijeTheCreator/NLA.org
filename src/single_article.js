@@ -1,4 +1,8 @@
-import { Placeholders, Selectors } from "../Utils/Selectors_And_PlaceHolders";
+import {
+  IP,
+  Placeholders,
+  Selectors,
+} from "../Utils/Selectors_And_PlaceHolders";
 import {
   applyPlaceholder,
   insertInnerHtml,
@@ -16,7 +20,7 @@ const getArticle = (articleId) => {
 const urlParams = new URLSearchParams(window.location.href);
 const articleId = urlParams.get("articleId");
 const articleData = getArticle(articleId);
-const articleFileServer = "http://127.0.0.1:8080/";
+const articleFileServer = `http://${IP}:8080/`;
 const mainAuthor = articleData.authors[0];
 const otherAuthors = articleData.authors.slice(1).join(", ");
 const articlePath = articleFileServer + articleData.file_name;

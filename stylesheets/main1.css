@@ -4953,7 +4953,7 @@ button {
   width: 100%;
   margin-top: -80px;
   background-color: rgb(255, 255, 255);
-  background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
+  background-image: url("http://127.0.0.1/Resources/HeroImage1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4962,14 +4962,14 @@ button {
 @media (min-width: 768px) {
   .eGqpbg {
     margin-top: -15px;
-    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
+    background-image: url("http://127.0.0.1/Resources/HeroImage1.png");
     min-height: 320px;
   }
 }
 @media (min-width: 992px) {
   .eGqpbg {
     margin-top: 70px;
-    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
+    background-image: url("http://127.0.0.1/Resources/HeroImage1.png");
     height: 465px;
     overflow: hidden;
   }
@@ -5359,7 +5359,7 @@ button {
 }
 @media (min-width: 768px) {
   .fdtjvR {
-    background-image: url("http://127.0.0.1:5500/Resources/HeroImage1.png");
+    background-image: url("http://127.0.0.1/Resources/HeroImage1.png");
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5557,7 +5557,7 @@ button {
   padding-bottom: 0px;
 }
 .ghyCyp {
-  margin-top: 140px;
+  /* margin-top: 140px; */
 }
 @media (min-width: 767.5px) {
   .ghyCyp {
